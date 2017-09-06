@@ -158,6 +158,7 @@ func autoConvert_v1beta1_ObjectReference_To_audit_ObjectReference(in *ObjectRefe
 	out.Namespace = in.Namespace
 	out.Name = in.Name
 	out.UID = types.UID(in.UID)
+	out.APIGroup = in.APIGroup
 	out.APIVersion = in.APIVersion
 	out.ResourceVersion = in.ResourceVersion
 	out.Subresource = in.Subresource
@@ -174,6 +175,7 @@ func autoConvert_audit_ObjectReference_To_v1beta1_ObjectReference(in *audit.Obje
 	out.Namespace = in.Namespace
 	out.Name = in.Name
 	out.UID = types.UID(in.UID)
+	out.APIGroup = in.APIGroup
 	out.APIVersion = in.APIVersion
 	out.ResourceVersion = in.ResourceVersion
 	out.Subresource = in.Subresource
@@ -237,6 +239,7 @@ func autoConvert_v1beta1_PolicyRule_To_audit_PolicyRule(in *PolicyRule, out *aud
 	out.Resources = *(*[]audit.GroupResources)(unsafe.Pointer(&in.Resources))
 	out.Namespaces = *(*[]string)(unsafe.Pointer(&in.Namespaces))
 	out.NonResourceURLs = *(*[]string)(unsafe.Pointer(&in.NonResourceURLs))
+	out.OmitStages = *(*[]audit.Stage)(unsafe.Pointer(&in.OmitStages))
 	return nil
 }
 
@@ -253,6 +256,7 @@ func autoConvert_audit_PolicyRule_To_v1beta1_PolicyRule(in *audit.PolicyRule, ou
 	out.Resources = *(*[]GroupResources)(unsafe.Pointer(&in.Resources))
 	out.Namespaces = *(*[]string)(unsafe.Pointer(&in.Namespaces))
 	out.NonResourceURLs = *(*[]string)(unsafe.Pointer(&in.NonResourceURLs))
+	out.OmitStages = *(*[]Stage)(unsafe.Pointer(&in.OmitStages))
 	return nil
 }
 

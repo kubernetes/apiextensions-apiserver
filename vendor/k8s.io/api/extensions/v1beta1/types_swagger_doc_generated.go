@@ -65,7 +65,7 @@ func (CustomMetricTarget) SwaggerDoc() map[string]string {
 }
 
 var map_DaemonSet = map[string]string{
-	"":         "DaemonSet represents the configuration of a daemon set.",
+	"":         "DEPRECATED - This group version of DaemonSet is deprecated by apps/v1beta2/DaemonSet. See the release notes for more information. DaemonSet represents the configuration of a daemon set.",
 	"metadata": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
 	"spec":     "The desired behavior of this daemon set. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#spec-and-status",
 	"status":   "The current status of this daemon set. This data may be out of date by some window of time. Populated by the system. Read-only. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#spec-and-status",
@@ -126,7 +126,7 @@ func (DaemonSetUpdateStrategy) SwaggerDoc() map[string]string {
 }
 
 var map_Deployment = map[string]string{
-	"":         "Deployment enables declarative updates for Pods and ReplicaSets.",
+	"":         "DEPRECATED - This group version of Deployment is deprecated by apps/v1beta2/Deployment. See the release notes for more information. Deployment enables declarative updates for Pods and ReplicaSets.",
 	"metadata": "Standard object metadata.",
 	"spec":     "Specification of the desired behavior of the Deployment.",
 	"status":   "Most recently observed status of the Deployment.",
@@ -195,7 +195,7 @@ var map_DeploymentStatus = map[string]string{
 	"updatedReplicas":     "Total number of non-terminated pods targeted by this deployment that have the desired template spec.",
 	"readyReplicas":       "Total number of ready pods targeted by this deployment.",
 	"availableReplicas":   "Total number of available pods (ready for at least minReadySeconds) targeted by this deployment.",
-	"unavailableReplicas": "Total number of unavailable pods targeted by this deployment.",
+	"unavailableReplicas": "Total number of unavailable pods targeted by this deployment. This is the total number of pods that are still required for the deployment to have 100% available capacity. They may either be pods that are running but not yet available or pods that still have not been created.",
 	"conditions":          "Represents the latest available observations of a deployment's current state.",
 	"collisionCount":      "Count of hash collisions for the Deployment. The Deployment controller uses this field as a collision avoidance mechanism when it needs to create the name for the newest ReplicaSet.",
 }
@@ -455,7 +455,7 @@ func (PodSecurityPolicySpec) SwaggerDoc() map[string]string {
 }
 
 var map_ReplicaSet = map[string]string{
-	"":         "ReplicaSet represents the configuration of a ReplicaSet.",
+	"":         "DEPRECATED - This group version of ReplicaSet is deprecated by apps/v1beta2/ReplicaSet. See the release notes for more information. ReplicaSet represents the configuration of a ReplicaSet.",
 	"metadata": "If the Labels of a ReplicaSet are empty, they are defaulted to be the same as the Pod(s) that the ReplicaSet manages. Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
 	"spec":     "Spec defines the specification of the desired behavior of the ReplicaSet. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#spec-and-status",
 	"status":   "Status is the most recently observed status of the ReplicaSet. This data may be out of date by some window of time. Populated by the system. Read-only. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#spec-and-status",
