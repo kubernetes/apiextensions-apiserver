@@ -1607,6 +1607,10 @@
 			"Rev": "f1dab8c342623e75f0484f20b150183d9e73f406"
 		},
 		{
+			"ImportPath": "k8s.io/apiserver/pkg/util/feature/testing",
+			"Rev": "f1dab8c342623e75f0484f20b150183d9e73f406"
+		},
+		{
 			"ImportPath": "k8s.io/apiserver/pkg/util/flag",
 			"Rev": "f1dab8c342623e75f0484f20b150183d9e73f406"
 		},
