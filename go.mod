@@ -5,7 +5,7 @@ module k8s.io/apiextensions-apiserver
 go 1.12
 
 require (
-	github.com/coreos/etcd v3.3.13+incompatible
+	github.com/coreos/etcd v3.3.10+incompatible
 	github.com/emicklei/go-restful v0.0.0-20170410110728-ff4f55a20633
 	github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8 // indirect
 	github.com/go-openapi/analysis v0.17.2 // indirect
@@ -25,12 +25,12 @@ require (
 	github.com/spf13/pflag v1.0.1
 	github.com/stretchr/testify v1.2.2
 	gopkg.in/yaml.v2 v2.2.1
-	k8s.io/api v0.0.0-20190503110853-61630f889b3c
-	k8s.io/apimachinery v0.0.0-20190502092502-a44ef629a3c9
-	k8s.io/apiserver v0.0.0-20190503111308-d03d7cbc3eab
-	k8s.io/client-go v0.0.0-20190425172711-65184652c889
-	k8s.io/code-generator v0.0.0-20190419212335-ff26e7842f9d
-	k8s.io/component-base v0.0.0-20190424053038-9fe063da3132
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog v0.3.0
 	k8s.io/kube-openapi v0.0.0-20190228160746-b3a7cee44a30
 	k8s.io/utils v0.0.0-20190221042446-c2654d5206da
@@ -38,13 +38,15 @@ require (
 )
 
 replace (
+	github.com/beorn7/perks => github.com/beorn7/perks v0.0.0-20160229213445-3ac7bf7a47d1
 	golang.org/x/sync => golang.org/x/sync v0.0.0-20181108010431-42b317875d0f
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190313210603-aa82965741a9
-	k8s.io/api => k8s.io/api v0.0.0-20190503110853-61630f889b3c
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190502092502-a44ef629a3c9
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190503111308-d03d7cbc3eab
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190425172711-65184652c889
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20190419212335-ff26e7842f9d
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20190424053038-9fe063da3132
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
 )
