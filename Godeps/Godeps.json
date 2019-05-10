@@ -44,7 +44,7 @@
 		},
 		{
 			"ImportPath": "github.com/beorn7/perks",
-			"Rev": "3ac7bf7a47d1"
+			"Rev": "4c0e84591b9a"
 		},
 		{
 			"ImportPath": "github.com/blang/semver",
@@ -480,7 +480,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "32059931b4c9"
+			"Rev": "296882b37772"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
@@ -492,7 +492,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "0c5a84a9501f"
+			"Rev": "37ac68324a2e"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
