@@ -8,13 +8,9 @@ require (
 	github.com/coreos/etcd v3.3.13+incompatible
 	github.com/emicklei/go-restful v2.9.5+incompatible
 	github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8 // indirect
-	github.com/go-openapi/analysis v0.17.2 // indirect
-	github.com/go-openapi/errors v0.17.2 // indirect
-	github.com/go-openapi/loads v0.17.2 // indirect
-	github.com/go-openapi/runtime v0.17.2 // indirect
-	github.com/go-openapi/spec v0.17.2
-	github.com/go-openapi/strfmt v0.17.0
-	github.com/go-openapi/validate v0.18.0
+	github.com/go-openapi/spec v0.19.2
+	github.com/go-openapi/strfmt v0.19.0
+	github.com/go-openapi/validate v0.19.2
 	github.com/gogo/protobuf v0.0.0-20171007142547-342cbe0a0415
 	github.com/google/go-cmp v0.3.0
 	github.com/google/gofuzz v1.0.0
@@ -25,12 +21,12 @@ require (
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.3.0
 	gopkg.in/yaml.v2 v2.2.2
-	k8s.io/api v0.0.0-20190626000116-b178a738ed00
-	k8s.io/apimachinery v0.0.0-20190624085041-961b39a1baa0
-	k8s.io/apiserver v0.0.0-20190625052034-8c075cba2f8c
-	k8s.io/client-go v0.0.0-20190626045420-1ec4b74c7bda
-	k8s.io/code-generator v0.0.0-20190620073620-d55040311883
-	k8s.io/component-base v0.0.0-20190626045757-ca439aa083f5
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog v0.3.1
 	k8s.io/kube-openapi v0.0.0-20190228160746-b3a7cee44a30
 	k8s.io/utils v0.0.0-20190221042446-c2654d5206da
@@ -38,15 +34,25 @@ require (
 )
 
 replace (
+	github.com/go-openapi/analysis => github.com/go-openapi/analysis v0.17.2
+	github.com/go-openapi/errors => github.com/go-openapi/errors v0.17.2
+	github.com/go-openapi/jsonpointer => github.com/go-openapi/jsonpointer v0.19.0
+	github.com/go-openapi/jsonreference => github.com/go-openapi/jsonreference v0.19.0
+	github.com/go-openapi/runtime => github.com/go-openapi/runtime v0.17.2
+	github.com/go-openapi/swag => github.com/go-openapi/swag v0.17.2
+	github.com/kr/pty => github.com/kr/pty v1.1.1
+	github.com/stretchr/objx => github.com/stretchr/objx v0.1.1
 	golang.org/x/crypto => golang.org/x/crypto v0.0.0-20181025213731-e84da0312774
 	golang.org/x/net => golang.org/x/net v0.0.0-20190206173232-65e2d4e15006
 	golang.org/x/sync => golang.org/x/sync v0.0.0-20181108010431-42b317875d0f
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190313210603-aa82965741a9
-	k8s.io/api => k8s.io/api v0.0.0-20190626000116-b178a738ed00
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190624085041-961b39a1baa0
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190625052034-8c075cba2f8c
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190626045420-1ec4b74c7bda
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20190620073620-d55040311883
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20190626045757-ca439aa083f5
+	gopkg.in/check.v1 => gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
 )
