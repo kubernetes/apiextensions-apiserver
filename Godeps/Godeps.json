@@ -32,7 +32,7 @@
 		},
 		{
 			"ImportPath": "github.com/PuerkitoBio/purell",
-			"Rev": "v1.1.0"
+			"Rev": "v1.1.1"
 		},
 		{
 			"ImportPath": "github.com/PuerkitoBio/urlesc",
@@ -44,7 +44,7 @@
 		},
 		{
 			"ImportPath": "github.com/asaskevich/govalidator",
-			"Rev": "f9ffefc3facf"
+			"Rev": "f61b66f89f4a"
 		},
 		{
 			"ImportPath": "github.com/beorn7/perks",
@@ -132,43 +132,43 @@
 		},
 		{
 			"ImportPath": "github.com/go-openapi/analysis",
-			"Rev": "v0.17.2"
+			"Rev": "v0.19.2"
 		},
 		{
 			"ImportPath": "github.com/go-openapi/errors",
-			"Rev": "v0.17.2"
+			"Rev": "v0.19.2"
 		},
 		{
 			"ImportPath": "github.com/go-openapi/jsonpointer",
-			"Rev": "v0.19.0"
+			"Rev": "v0.19.2"
 		},
 		{
 			"ImportPath": "github.com/go-openapi/jsonreference",
-			"Rev": "v0.19.0"
+			"Rev": "v0.19.2"
 		},
 		{
 			"ImportPath": "github.com/go-openapi/loads",
-			"Rev": "v0.17.2"
+			"Rev": "v0.19.2"
 		},
 		{
 			"ImportPath": "github.com/go-openapi/runtime",
-			"Rev": "v0.17.2"
+			"Rev": "v0.19.0"
 		},
 		{
 			"ImportPath": "github.com/go-openapi/spec",
-			"Rev": "v0.17.2"
+			"Rev": "v0.19.2"
 		},
 		{
 			"ImportPath": "github.com/go-openapi/strfmt",
-			"Rev": "v0.17.0"
+			"Rev": "v0.19.0"
 		},
 		{
 			"ImportPath": "github.com/go-openapi/swag",
-			"Rev": "v0.17.2"
+			"Rev": "v0.19.2"
 		},
 		{
 			"ImportPath": "github.com/go-openapi/validate",
-			"Rev": "v0.18.0"
+			"Rev": "v0.19.2"
 		},
 		{
 			"ImportPath": "github.com/gogo/protobuf",
@@ -263,12 +263,24 @@
 			"Rev": "v1.0.1"
 		},
 		{
+			"ImportPath": "github.com/kr/pretty",
+			"Rev": "v0.1.0"
+		},
+		{
+			"ImportPath": "github.com/kr/pty",
+			"Rev": "v1.1.5"
+		},
+		{
+			"ImportPath": "github.com/kr/text",
+			"Rev": "v0.1.0"
+		},
+		{
 			"ImportPath": "github.com/magiconair/properties",
 			"Rev": "v1.8.0"
 		},
 		{
 			"ImportPath": "github.com/mailru/easyjson",
-			"Rev": "60711f1a8329"
+			"Rev": "94de47d64c63"
 		},
 		{
 			"ImportPath": "github.com/matttproud/golang_protobuf_extensions",
@@ -388,7 +400,7 @@
 		},
 		{
 			"ImportPath": "github.com/stretchr/objx",
-			"Rev": "v0.1.1"
+			"Rev": "v0.2.0"
 		},
 		{
 			"ImportPath": "github.com/stretchr/testify",
@@ -488,7 +500,7 @@
 		},
 		{
 			"ImportPath": "gopkg.in/check.v1",
-			"Rev": "20d25e280405"
+			"Rev": "788fd7840127"
 		},
 		{
 			"ImportPath": "gopkg.in/fsnotify.v1",
@@ -520,27 +532,27 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "b178a738ed00"
+			"Rev": "acea843d18eb"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "961b39a1baa0"
+			"Rev": "bc5732d141a8"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "8c075cba2f8c"
+			"Rev": "09b870d7505f"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "1ec4b74c7bda"
+			"Rev": "11059204e07c"
 		},
 		{
 			"ImportPath": "k8s.io/code-generator",
-			"Rev": "d55040311883"
+			"Rev": "86aa6a6a5cf3"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "ca439aa083f5"
+			"Rev": "327675bd8ec3"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
