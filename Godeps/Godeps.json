@@ -376,7 +376,7 @@
 		},
 		{
 			"ImportPath": "github.com/spf13/afero",
-			"Rev": "v1.1.2"
+			"Rev": "v1.2.2"
 		},
 		{
 			"ImportPath": "github.com/spf13/cast",
@@ -532,7 +532,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "acea843d18eb"
+			"Rev": "5b0469dfd244"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
@@ -540,11 +540,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "5bbab557211a"
+			"Rev": "b298bda0c293"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "c597d117149b"
+			"Rev": "b3101450e21d"
 		},
 		{
 			"ImportPath": "k8s.io/code-generator",
@@ -552,7 +552,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "327675bd8ec3"
+			"Rev": "e0653b7050bb"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -568,7 +568,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/utils",
-			"Rev": "c2654d5206da"
+			"Rev": "c55fbcfc754a"
 		},
 		{
 			"ImportPath": "modernc.org/cc",
