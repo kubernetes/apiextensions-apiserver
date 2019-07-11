@@ -21,9 +21,9 @@ require (
 	github.com/stretchr/testify v1.3.0
 	gopkg.in/yaml.v2 v2.2.2
 	k8s.io/api v0.0.0-20190711103429-37c3b8b1ca65
-	k8s.io/apimachinery v0.0.0-20190711103026-7bf792636534
-	k8s.io/apiserver v0.0.0-20190711105201-c925c445ddf6
-	k8s.io/client-go v0.0.0-20190711103903-4a0861cac5e0
+	k8s.io/apimachinery v0.0.0-20190711222657-391ed67afa7b
+	k8s.io/apiserver v0.0.0-20190711105205-62fd9cb1d644
+	k8s.io/client-go v0.0.0-20190711223015-deaa3604a63e
 	k8s.io/code-generator v0.0.0-20190711102700-42c1e9a4dc7a
 	k8s.io/component-base v0.0.0-20190711104712-4ad84870f76c
 	k8s.io/klog v0.3.1
@@ -40,9 +40,9 @@ replace (
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190313210603-aa82965741a9
 	k8s.io/api => k8s.io/api v0.0.0-20190711103429-37c3b8b1ca65
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190711103026-7bf792636534
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190711105201-c925c445ddf6
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190711103903-4a0861cac5e0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190711222657-391ed67afa7b
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190711105205-62fd9cb1d644
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20190711223015-deaa3604a63e
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20190711102700-42c1e9a4dc7a
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20190711104712-4ad84870f76c
 )
