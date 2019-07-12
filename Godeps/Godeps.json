@@ -544,11 +544,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "deaa3604a63e"
+			"Rev": "3d21683b8752"
 		},
 		{
 			"ImportPath": "k8s.io/code-generator",
-			"Rev": "42c1e9a4dc7a"
+			"Rev": "bc18bbf3b8f3"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
