@@ -7,6 +7,7 @@ go 1.12
 require (
 	github.com/coreos/etcd v3.3.13+incompatible
 	github.com/emicklei/go-restful v2.9.5+incompatible
+	github.com/go-openapi/errors v0.19.2
 	github.com/go-openapi/spec v0.19.2
 	github.com/go-openapi/strfmt v0.19.0
 	github.com/go-openapi/validate v0.19.2
@@ -20,10 +21,10 @@ require (
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.3.0
 	gopkg.in/yaml.v2 v2.2.2
-	k8s.io/api v0.0.0-20190808180749-077ce48e77da
+	k8s.io/api v0.0.0-20190809220925-3ab596449d6f
 	k8s.io/apimachinery v0.0.0-20190809020650-423f5d784010
 	k8s.io/apiserver v0.0.0-20190808221250-dd1076c6639a
-	k8s.io/client-go v0.0.0-20190808180953-396a06da3bd7
+	k8s.io/client-go v0.0.0-20190809221226-62f300f03a5f
 	k8s.io/code-generator v0.0.0-20190808180452-d0071a119380
 	k8s.io/component-base v0.0.0-20190808181427-fceb63aacf50
 	k8s.io/klog v0.3.1
@@ -39,10 +40,10 @@ replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190313210603-aa82965741a9
-	k8s.io/api => k8s.io/api v0.0.0-20190808180749-077ce48e77da
+	k8s.io/api => k8s.io/api v0.0.0-20190809220925-3ab596449d6f
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190809020650-423f5d784010
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190808221250-dd1076c6639a
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190808180953-396a06da3bd7
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20190809221226-62f300f03a5f
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20190808180452-d0071a119380
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20190808181427-fceb63aacf50
 )
