@@ -131,6 +131,10 @@
 			"Rev": "eeefdecb41b8"
 		},
 		{
+			"ImportPath": "github.com/go-logr/logr",
+			"Rev": "v0.1.0"
+		},
+		{
 			"ImportPath": "github.com/go-openapi/analysis",
 			"Rev": "v0.19.2"
 		},
@@ -540,27 +544,27 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "3ab596449d6f"
+			"Rev": "3b2b5017183f"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "423f5d784010"
+			"Rev": "cbbcc3bf2cd4"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "dd1076c6639a"
+			"Rev": "bb3fa24fe4e2"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "62f300f03a5f"
+			"Rev": "48bc0598fd18"
 		},
 		{
 			"ImportPath": "k8s.io/code-generator",
-			"Rev": "d0071a119380"
+			"Rev": "4e023f69fd57"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "fceb63aacf50"
+			"Rev": "3e62d79579c8"
 		},
 		{
 			"ImportPath": "k8s.io/gengo",
@@ -568,7 +572,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/klog",
-			"Rev": "v0.3.1"
+			"Rev": "v0.4.0"
 		},
 		{
 			"ImportPath": "k8s.io/kube-openapi",
