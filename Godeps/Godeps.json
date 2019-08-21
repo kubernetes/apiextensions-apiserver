@@ -488,7 +488,7 @@
 		},
 		{
 			"ImportPath": "golang.org/x/lint",
-			"Rev": "d0100b6bd8b3"
+			"Rev": "8f45f776aaf1"
 		},
 		{
 			"ImportPath": "golang.org/x/mobile",
