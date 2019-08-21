@@ -416,7 +416,7 @@
 		},
 		{
 			"ImportPath": "github.com/spf13/cobra",
-			"Rev": "v0.0.4"
+			"Rev": "v0.0.5"
 		},
 		{
 			"ImportPath": "github.com/spf13/jwalterweatherman",
