@@ -17,14 +17,14 @@ require (
 	github.com/googleapis/gnostic v0.0.0-20170729233727-0c5108395e2d
 	github.com/pborman/uuid v1.2.0
 	github.com/prometheus/client_golang v0.9.2
-	github.com/spf13/cobra v0.0.4
+	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.3.0
 	gopkg.in/yaml.v2 v2.2.2
 	k8s.io/api v0.0.0-20190820101039-d651a1528133
 	k8s.io/apimachinery v0.0.0-20190820100751-ac02f8882ef6
-	k8s.io/apiserver v0.0.0-20190820102802-2de2c9b11bd7
-	k8s.io/client-go v0.0.0-20190820101407-c8dc69f8a8bf
+	k8s.io/apiserver v0.0.0-20190820102804-33bf53f7c421
+	k8s.io/client-go v0.0.0-20190822053941-f4e58ce6093c
 	k8s.io/code-generator v0.0.0-20190820100531-4a676795660b
 	k8s.io/component-base v0.0.0-20190820102445-1391c9d535ae
 	k8s.io/klog v0.4.0
@@ -40,8 +40,8 @@ replace (
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	k8s.io/api => k8s.io/api v0.0.0-20190820101039-d651a1528133
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190820100751-ac02f8882ef6
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190820102802-2de2c9b11bd7
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20190820101407-c8dc69f8a8bf
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190820102804-33bf53f7c421
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20190822053941-f4e58ce6093c
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20190820100531-4a676795660b
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20190820102445-1391c9d535ae
 )
