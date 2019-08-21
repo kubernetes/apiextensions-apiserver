@@ -5,7 +5,7 @@ module k8s.io/apiextensions-apiserver
 go 1.12
 
 require (
-	github.com/coreos/etcd v3.3.13+incompatible
+	github.com/coreos/etcd v3.3.15+incompatible
 	github.com/emicklei/go-restful v2.9.5+incompatible
 	github.com/go-openapi/errors v0.19.2
 	github.com/go-openapi/spec v0.19.2
@@ -23,7 +23,7 @@ require (
 	gopkg.in/yaml.v2 v2.2.2
 	k8s.io/api v0.0.0-20190820101039-d651a1528133
 	k8s.io/apimachinery v0.0.0-20190822052848-2ef880f74d2a
-	k8s.io/apiserver v0.0.0-20190822055915-04afb33ac40a
+	k8s.io/apiserver v0.0.0-20190822055924-40cc089c1e73
 	k8s.io/client-go v0.0.0-20190822053941-f4e58ce6093c
 	k8s.io/code-generator v0.0.0-20190820100531-4a676795660b
 	k8s.io/component-base v0.0.0-20190820102445-1391c9d535ae
@@ -35,12 +35,13 @@ require (
 
 replace (
 	golang.org/x/crypto => golang.org/x/crypto v0.0.0-20181025213731-e84da0312774
+	golang.org/x/lint => golang.org/x/lint v0.0.0-20181217174547-8f45f776aaf1
 	golang.org/x/sync => golang.org/x/sync v0.0.0-20181108010431-42b317875d0f
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	k8s.io/api => k8s.io/api v0.0.0-20190820101039-d651a1528133
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190822052848-2ef880f74d2a
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190822055915-04afb33ac40a
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190822055924-40cc089c1e73
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20190822053941-f4e58ce6093c
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20190820100531-4a676795660b
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20190820102445-1391c9d535ae
