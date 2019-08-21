@@ -5,7 +5,7 @@ module k8s.io/apiextensions-apiserver
 go 1.12
 
 require (
-	github.com/coreos/etcd v3.3.13+incompatible
+	github.com/coreos/etcd v3.3.15+incompatible
 	github.com/emicklei/go-restful v2.9.5+incompatible
 	github.com/go-openapi/errors v0.19.2
 	github.com/go-openapi/spec v0.19.2
@@ -23,7 +23,7 @@ require (
 	gopkg.in/yaml.v2 v2.2.2
 	k8s.io/api v0.0.0-20190820101204-3efd428ce51b
 	k8s.io/apimachinery v0.0.0-20190821142400-bb534aad565e
-	k8s.io/apiserver v0.0.0-20190821142400-f35232006800
+	k8s.io/apiserver v0.0.0-20190822142841-e87f094b8e30
 	k8s.io/client-go v0.0.0-20190821142400-e484c9e80a37
 	k8s.io/code-generator v0.0.0-20190820100630-060a3d12ce80
 	k8s.io/component-base v0.0.0-20190820074809-74b38ad9c4f2
@@ -40,7 +40,7 @@ replace (
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	k8s.io/api => k8s.io/api v0.0.0-20190820101204-3efd428ce51b
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190821142400-bb534aad565e
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190821142400-f35232006800
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190822142841-e87f094b8e30
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20190821142400-e484c9e80a37
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20190820100630-060a3d12ce80
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20190820074809-74b38ad9c4f2
