@@ -354,6 +354,12 @@ gotest.tools v2.2.0+incompatible/go.mod h1:DsYFclhRJ6vuDpmuTbkuFWG+y2sxOXAzmJt81
 honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190106161140-3f1c8253044a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
+k8s.io/api v0.0.0-20190829234749-53c833bc9078/go.mod h1:87temCTGeJAq22HWTJDnKM9cT6PpMADm5DqxEe3uRnk=
+k8s.io/apimachinery v0.0.0-20190829154700-508c689428e4/go.mod h1:OOC7vMsHyCzra5xu6r1bRXkXMH76iww9BeHOAAJof4U=
+k8s.io/apiserver v0.0.0-20190830035627-26bbd75f8c3e/go.mod h1:bAvRzazGjFa5rJeGHc/kkIIO+CS3HhEn2c91pR+1PYA=
+k8s.io/client-go v0.0.0-20190829155211-065c7aba1f3f/go.mod h1:OTl/HIPWX8UHQQEslKfnYiXsTUfdVT1omr+YXmbJCI0=
+k8s.io/code-generator v0.0.0-20190828114452-79369ab2ae19/go.mod h1:DcZnH9wu/rlc2W9W82F8WPyJRR2mJVZGNE1cA/Qn6zQ=
+k8s.io/component-base v0.0.0-20190829160041-be152a771707/go.mod h1:bAfLerY9PEE9mAANE1bydHRWmLL0Ql9gB3HG/39Vws4=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6 h1:4s3/R4+OYYYUKptXPhZKjQ04WJ6EhQQVFdjOFvCazDk=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/gengo v0.0.0-20190822140433-26a664648505 h1:ZY6yclUKVbZ+SdWnkfY+Je5vrMpKOxmGeKRbsXVmqYM=
