@@ -148,7 +148,7 @@
 		},
 		{
 			"ImportPath": "github.com/ghodss/yaml",
-			"Rev": "73d445a93680"
+			"Rev": "c7ce16629ff4"
 		},
 		{
 			"ImportPath": "github.com/globalsign/mgo",
