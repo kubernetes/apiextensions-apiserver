@@ -604,11 +604,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/api",
-			"Rev": "21721929cffa"
+			"Rev": "41700d9d0c5b"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "a891081239f5"
+			"Rev": "83fef8059749"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
