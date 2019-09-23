@@ -16,7 +16,7 @@ require (
 	github.com/google/gofuzz v1.0.0
 	github.com/googleapis/gnostic v0.0.0-20170729233727-0c5108395e2d
 	github.com/pborman/uuid v1.2.0
-	github.com/prometheus/client_golang v0.9.2
+	github.com/prometheus/client_golang v0.9.4
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.3.0
@@ -24,10 +24,10 @@ require (
 	gopkg.in/yaml.v2 v2.2.2
 	k8s.io/api v0.0.0-20190923155552-eac758366a00
 	k8s.io/apimachinery v0.0.0-20190923155427-ec87dd743e08
-	k8s.io/apiserver v0.0.0-20190923160435-da4a36926496
+	k8s.io/apiserver v0.0.0-20190924000102-096dc5f157a1
 	k8s.io/client-go v0.0.0-20190923155754-2bd34d193bac
 	k8s.io/code-generator v0.0.0-20190923155300-6206bfaf5c98
-	k8s.io/component-base v0.0.0-20190923160219-c897bbc27d33
+	k8s.io/component-base v0.0.0-20190923235848-ef75bdfd7a61
 	k8s.io/klog v1.0.0
 	k8s.io/kube-openapi v0.0.0-20190816220812-743ec37842bf
 	k8s.io/utils v0.0.0-20190801114015-581e00157fb1
@@ -44,8 +44,8 @@ replace (
 	golang.org/x/time => golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
 	k8s.io/api => k8s.io/api v0.0.0-20190923155552-eac758366a00
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190923155427-ec87dd743e08
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190923160435-da4a36926496
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190924000102-096dc5f157a1
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20190923155754-2bd34d193bac
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20190923155300-6206bfaf5c98
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20190923160219-c897bbc27d33
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20190923235848-ef75bdfd7a61
 )
