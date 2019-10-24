@@ -21,12 +21,12 @@ require (
 	github.com/stretchr/testify v1.3.0
 	google.golang.org/grpc v1.23.0
 	gopkg.in/yaml.v2 v2.2.4
-	k8s.io/api v0.0.0-20191016225839-816a9b7df678
-	k8s.io/apimachinery v0.0.0-20191017185446-6e68a40eebf9
-	k8s.io/apiserver v0.0.0-20191017190126-26d3e9acc5bf
-	k8s.io/client-go v0.0.0-20191016230210-14c42cd304d9
-	k8s.io/code-generator v0.0.0-20191017183038-0b22993d207c
-	k8s.io/component-base v0.0.0-20191016230640-d338b9159fb6
+	k8s.io/api v0.0.0-20191024025707-4cb0a757333c
+	k8s.io/apimachinery v0.0.0-20191024025529-62ce3d1e6a82
+	k8s.io/apiserver v0.0.0-20191024030324-9fbfc4e2aba5
+	k8s.io/client-go v0.0.0-20191023065929-d1b30110f1ab
+	k8s.io/code-generator v0.0.0-20191024020705-71661edaef75
+	k8s.io/component-base v0.0.0-20191023070445-be75e4906c11
 	k8s.io/klog v1.0.0
 	k8s.io/kube-openapi v0.0.0-20190816220812-743ec37842bf
 	k8s.io/utils v0.0.0-20191010214722-8d271d903fe4
@@ -41,10 +41,10 @@ replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	golang.org/x/time => golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
-	k8s.io/api => k8s.io/api v0.0.0-20191016225839-816a9b7df678
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20191017185446-6e68a40eebf9
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20191017190126-26d3e9acc5bf
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20191016230210-14c42cd304d9
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20191017183038-0b22993d207c
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20191016230640-d338b9159fb6
+	k8s.io/api => k8s.io/api v0.0.0-20191024025707-4cb0a757333c
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20191024025529-62ce3d1e6a82
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20191024030324-9fbfc4e2aba5
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20191023065929-d1b30110f1ab
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20191024020705-71661edaef75
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20191023070445-be75e4906c11
 )
