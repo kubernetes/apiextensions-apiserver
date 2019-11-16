@@ -704,11 +704,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "3c7067801da2"
+			"Rev": "08e4eafd6d11"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "5d4d05fd8ad3"
+			"Rev": "f2537b84c964"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
