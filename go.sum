@@ -419,12 +419,12 @@ gotest.tools v2.2.0+incompatible/go.mod h1:DsYFclhRJ6vuDpmuTbkuFWG+y2sxOXAzmJt81
 honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190106161140-3f1c8253044a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
-k8s.io/api v0.0.0-20200226110231-e99848a2b916/go.mod h1:brPp6rLV9ZWi2IgXmvCsY7TKw2l27eF4rfCHlyW88ys=
+k8s.io/api v0.0.0-20200229162612-f988802f85bd/go.mod h1:brPp6rLV9ZWi2IgXmvCsY7TKw2l27eF4rfCHlyW88ys=
 k8s.io/apimachinery v0.0.0-20200214081019-2373d029717c/go.mod h1:5X8oEhnd931nEg6/Nkumo00nT6ZsCLp2h7Xwd7Ym6P4=
-k8s.io/apiserver v0.0.0-20200223092941-7f5d619eeb7e/go.mod h1:TNI1cy+wd2I9Uw6se93uFaxQ1Y6Ocqyv8lUmCgsBvRA=
-k8s.io/client-go v0.0.0-20200223092941-010dce13f834/go.mod h1:hg+XZh+MF2E3sKMTvfeCwbzeSdJuujHxMrMEGL3nK0U=
+k8s.io/apiserver v0.0.0-20200229162612-23ff0d1e9e22/go.mod h1:aYuSlTrCIgBbUcEJ6Jcoam5IjhYSKhubn1FhCcwLB2M=
+k8s.io/client-go v0.0.0-20200229162612-bc450043dc76/go.mod h1:qOd9x7g/Ri9zIbgFTBz4RtEReO2sCS/dUm25u7LYnbw=
 k8s.io/code-generator v0.0.0-20200223121935-f7c31974df11/go.mod h1:+UHX5rSbxmR8kzS+FAv7um6dtYrZokQvjHpDSYRVkTc=
-k8s.io/component-base v0.0.0-20200223123552-0ac4c75112dd/go.mod h1:Rg2MnStBThyki+TYf9aRG2ybSbkHqTG/qOdnJ6pwWdM=
+k8s.io/component-base v0.0.0-20200227204800-d43a87d8e3f6/go.mod h1:Q/wThMyG5ji8zk1xjiGmwU0Aa0LXr8OP+JWyaPEaenc=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/gengo v0.0.0-20200114144118-36b2048a9120 h1:RPscN6KhmG54S33L+lr3GS+oD1jmchIU0ll519K6FA4=
 k8s.io/gengo v0.0.0-20200114144118-36b2048a9120/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
