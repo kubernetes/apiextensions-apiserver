@@ -419,10 +419,10 @@ gotest.tools v2.2.0+incompatible/go.mod h1:DsYFclhRJ6vuDpmuTbkuFWG+y2sxOXAzmJt81
 honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190106161140-3f1c8253044a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
-k8s.io/api v0.0.0-20200226122402-d155b85a4fda/go.mod h1:brPp6rLV9ZWi2IgXmvCsY7TKw2l27eF4rfCHlyW88ys=
+k8s.io/api v0.0.0-20200229073839-0cf4f255cdfe/go.mod h1:brPp6rLV9ZWi2IgXmvCsY7TKw2l27eF4rfCHlyW88ys=
 k8s.io/apimachinery v0.0.0-20200214081019-2373d029717c/go.mod h1:5X8oEhnd931nEg6/Nkumo00nT6ZsCLp2h7Xwd7Ym6P4=
-k8s.io/apiserver v0.0.0-20200228044802-65eed4cf58bd/go.mod h1:0aMgLGhrgKlupognOm2WBLWlOQSfjmAzFSYx85/iwak=
-k8s.io/client-go v0.0.0-20200227162456-dd730ded405f/go.mod h1:gO+mdvDoeJffZ4HcZD+zu/NtuHo7sKuRq517y1fVxhg=
+k8s.io/apiserver v0.0.0-20200229042934-04f91da94a80/go.mod h1:0aMgLGhrgKlupognOm2WBLWlOQSfjmAzFSYx85/iwak=
+k8s.io/client-go v0.0.0-20200229082506-bcb30edc8b38/go.mod h1:AffEArDYoUR2YjYt8gY7dNfq5cDXWIv3uhfKwsa+2jo=
 k8s.io/code-generator v0.0.0-20200214080538-dc8f3adce97c/go.mod h1:+UHX5rSbxmR8kzS+FAv7um6dtYrZokQvjHpDSYRVkTc=
 k8s.io/component-base v0.0.0-20200227163006-6f93f319a354/go.mod h1:HDvqB92UBNY8EfzZuIRA2S7PmDF5CfiRwS88LNkTRnE=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
