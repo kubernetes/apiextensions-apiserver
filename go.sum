@@ -443,7 +443,7 @@ honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWh
 honnef.co/go/tools v0.0.0-20190106161140-3f1c8253044a/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 k8s.io/api v0.0.0-20200403220253-fa879b399cd0/go.mod h1:IHUHI0RKOjAF2/LmT+5g7hlTufmlzdZqccff7saac3A=
-k8s.io/apimachinery v0.0.0-20200403220105-fa0d5bf06730/go.mod h1:plsINh5MKcZh761kXB2H+kXnD8vwFIAy7bitct1VPNU=
+k8s.io/apimachinery v0.0.0-20200406221120-d80b6a5567e1/go.mod h1:plsINh5MKcZh761kXB2H+kXnD8vwFIAy7bitct1VPNU=
 k8s.io/apiserver v0.0.0-20200406022000-fa3c8ad6d7af/go.mod h1:HmSlp8FyGYaRLiutJtBG8niUohhhaB0xcj0nwdMqXHs=
 k8s.io/client-go v0.0.0-20200404181738-fe32aa3b9449/go.mod h1:me/DKkwsyrZeE+/lxC0UBfbVo4uAqKZvrryCJAYjoPM=
 k8s.io/code-generator v0.0.0-20200404220919-5234717b059a/go.mod h1:YWTbdBQTWC2wB0gPVS56hNyoLUaaBHEqG6S/8qdLAXs=
