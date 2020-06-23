@@ -2,7 +2,7 @@
 
 module k8s.io/apiextensions-apiserver
 
-go 1.13
+go 1.14
 
 require (
 	github.com/emicklei/go-restful v2.9.5+incompatible
@@ -21,12 +21,12 @@ require (
 	go.etcd.io/etcd v0.5.0-alpha.5.0.20200520232829-54ba9589114f
 	google.golang.org/grpc v1.26.0
 	gopkg.in/yaml.v2 v2.2.8
-	k8s.io/api v0.0.0-20200619212010-fd326d3007d3
-	k8s.io/apimachinery v0.0.0-20200619211815-2d992b89ee69
-	k8s.io/apiserver v0.0.0-20200623052853-42312e1d6801
-	k8s.io/client-go v0.0.0-20200623052157-57681663d939
-	k8s.io/code-generator v0.0.0-20200619211621-92e2f57872e8
-	k8s.io/component-base v0.0.0-20200623052606-2737b78048f4
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.1.0
 	k8s.io/kube-openapi v0.0.0-20200427153329-656914f816f9
 	k8s.io/utils v0.0.0-20200619165400-6e3d28b6ed19
@@ -34,12 +34,12 @@ require (
 )
 
 replace (
-	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
-	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20200619212010-fd326d3007d3
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200619211815-2d992b89ee69
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200623052853-42312e1d6801
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200623052157-57681663d939
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20200619211621-92e2f57872e8
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200623052606-2737b78048f4
+	golang.org/x/sys => golang.org/x/sys v0.0.0-20200201011859-915c9c3d4ccf // pinned to release-branch.go1.14-std
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
 )
