@@ -21,23 +21,23 @@ require (
 	go.etcd.io/etcd v0.5.0-alpha.5.0.20200520232829-54ba9589114f
 	google.golang.org/grpc v1.27.0
 	gopkg.in/yaml.v2 v2.2.8
-	k8s.io/api v0.0.0-20200630090439-aaebd44608df
-	k8s.io/apimachinery v0.0.0-20200701170247-d66960f508af
-	k8s.io/apiserver v0.0.0-20200701131125-a5a44dbcd1c3
-	k8s.io/client-go v0.0.0-20200701090722-5f4e5d88ae20
-	k8s.io/code-generator v0.0.0-20200630203207-8cda81c075eb
-	k8s.io/component-base v0.0.0-20200701091302-d18546f5347c
-	k8s.io/klog/v2 v2.1.0
+	k8s.io/api v0.0.0-20200702090434-70c9750ce4ed
+	k8s.io/apimachinery v0.0.0-20200702090250-8a773a02ba6b
+	k8s.io/apiserver v0.0.0-20200702091554-75cd96a7f879
+	k8s.io/client-go v0.0.0-20200702090709-bdcd046d6cbf
+	k8s.io/code-generator v0.0.0-20200702090103-29a41fee4a12
+	k8s.io/component-base v0.0.0-20200702091254-df61fd08516e
+	k8s.io/klog/v2 v2.2.0
 	k8s.io/kube-openapi v0.0.0-20200427153329-656914f816f9
 	k8s.io/utils v0.0.0-20200619165400-6e3d28b6ed19
 	sigs.k8s.io/yaml v1.2.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20200630090439-aaebd44608df
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200701170247-d66960f508af
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200701131125-a5a44dbcd1c3
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200701090722-5f4e5d88ae20
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20200630203207-8cda81c075eb
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200701091302-d18546f5347c
+	k8s.io/api => k8s.io/api v0.0.0-20200702090434-70c9750ce4ed
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200702090250-8a773a02ba6b
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20200702091554-75cd96a7f879
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20200702090709-bdcd046d6cbf
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20200702090103-29a41fee4a12
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20200702091254-df61fd08516e
 )
