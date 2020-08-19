@@ -672,7 +672,7 @@
 		},
 		{
 			"ImportPath": "go.etcd.io/etcd",
-			"Rev": "18dfb9cca345"
+			"Rev": "17cef6e3e9d5"
 		},
 		{
 			"ImportPath": "go.mongodb.org/mongo-driver",
@@ -836,7 +836,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "7c8dab1e3d06"
+			"Rev": "09eab1cf2cce"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
