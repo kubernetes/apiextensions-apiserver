@@ -18,10 +18,10 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.0
 	google.golang.org/grpc v1.38.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20210708014407-1e1dad4bd9d1
-	k8s.io/apimachinery v0.0.0-20210708014216-0dafcb48b31e
-	k8s.io/apiserver v0.0.0-20210708095427-bfdf7b274827
-	k8s.io/client-go v0.0.0-20210708094636-69e00b04ba4c
+	k8s.io/api v0.0.0-20210712061512-af0a862c7573
+	k8s.io/apimachinery v0.0.0-20210712060818-a644435e2c13
+	k8s.io/apiserver v0.0.0-20210712181754-851e1a75a6fc
+	k8s.io/client-go v0.0.0-20210708214810-7a90b08589bb
 	k8s.io/code-generator v0.0.0-20210708071253-ee3ba0fad71e
 	k8s.io/component-base v0.0.0-20210708095030-632996df852a
 	k8s.io/klog/v2 v2.9.0
@@ -32,10 +32,10 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210708014407-1e1dad4bd9d1
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210708014216-0dafcb48b31e
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210708095427-bfdf7b274827
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210708094636-69e00b04ba4c
+	k8s.io/api => k8s.io/api v0.0.0-20210712061512-af0a862c7573
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210712060818-a644435e2c13
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210712181754-851e1a75a6fc
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20210708214810-7a90b08589bb
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20210708071253-ee3ba0fad71e
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20210708095030-632996df852a
 )
