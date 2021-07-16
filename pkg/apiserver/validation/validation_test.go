@@ -134,6 +134,28 @@ func TestValidateCustomResource(t *testing.T) {
 		objects        []interface{}
 		failingObjects []failingObject
 	}{
+		{name: "map",
+			schema: apiextensions.JSONSchemaProps{
+				Properties: map[string]apiextensions.JSONSchemaProps{
+					"field": {
+						Type:     "object",
+						AdditionalProperties: &apiextensions.JSONSchemaPropsOrBool{
+							Schema: &apiextensions.JSONSchemaProps{
+								Type: "string",
+							},
+						},
+					},
+				},
+			},
+			objects: []interface{}{
+				map[string]interface{}{},
+				map[string]interface{}{"field": map[string]interface{}{
+					"a": "b",
+				}},
+			},
+			failingObjects: []failingObject{
+			},
+		},
 		{name: "!nullable",
 			schema: apiextensions.JSONSchemaProps{
 				Properties: map[string]apiextensions.JSONSchemaProps{
