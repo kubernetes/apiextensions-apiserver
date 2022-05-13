@@ -21,12 +21,12 @@ require (
 	google.golang.org/grpc v1.44.0
 	google.golang.org/protobuf v1.27.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20220531234821-832b1f4dc5da
-	k8s.io/apimachinery v0.0.0-20220527204257-be3a79b26814
-	k8s.io/apiserver v0.0.0-20220602005558-2a18ad23dce0
-	k8s.io/client-go v0.0.0-20220530124808-f88de91ae5c1
-	k8s.io/code-generator v0.0.0-20220512215755-7d977b3e5454
-	k8s.io/component-base v0.0.0-20220531235246-ba9c052508ce
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.60.1
 	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
@@ -105,7 +105,7 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.19.0 // indirect
-	golang.org/x/crypto v0.0.0-20220214200702-86341886e292 // indirect
+	golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd // indirect
 	golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3 // indirect
 	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
@@ -125,10 +125,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220531234821-832b1f4dc5da
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220527204257-be3a79b26814
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220602005558-2a18ad23dce0
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220530124808-f88de91ae5c1
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220512215755-7d977b3e5454
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220531235246-ba9c052508ce
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
 )
