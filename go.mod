@@ -9,7 +9,7 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/google/cel-go v0.11.2
 	github.com/google/gnostic v0.5.7-v3refs
-	github.com/google/go-cmp v0.5.5
+	github.com/google/go-cmp v0.5.6
 	github.com/google/gofuzz v1.1.0
 	github.com/google/uuid v1.1.2
 	github.com/spf13/cobra v1.4.0
@@ -18,15 +18,15 @@ require (
 	go.etcd.io/etcd/client/pkg/v3 v3.5.4
 	go.etcd.io/etcd/client/v3 v3.5.4
 	google.golang.org/genproto v0.0.0-20220310185008-1973136f34c6
-	google.golang.org/grpc v1.44.0
+	google.golang.org/grpc v1.47.0
 	google.golang.org/protobuf v1.27.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20220613074849-6b0201da8019
-	k8s.io/apimachinery v0.0.0-20220613074648-b90ea24d2fd6
-	k8s.io/apiserver v0.0.0-20220614075808-d4d8126908a9
-	k8s.io/client-go v0.0.0-20220613195210-2a9f95519059
-	k8s.io/code-generator v0.0.0-20220613194458-a2acbb4ade5c
-	k8s.io/component-base v0.0.0-20220613195522-9227fb076997
+	k8s.io/api v0.0.0-20220614194928-60387f6ceb7c
+	k8s.io/apimachinery v0.0.0-20220614194717-c5be38573c73
+	k8s.io/apiserver v0.0.0-20220614200351-5e46aae63f47
+	k8s.io/client-go v0.0.0-20220614195233-830d4c462418
+	k8s.io/code-generator v0.0.0-20220614194514-4e8f8f5e9126
+	k8s.io/component-base v0.0.0-20220614195841-c528ad5e18a8
 	k8s.io/klog/v2 v2.60.1
 	k8s.io/kube-openapi v0.0.0-20220603121420-31174f50af60
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
@@ -125,10 +125,10 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220613074849-6b0201da8019
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220613074648-b90ea24d2fd6
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220614075808-d4d8126908a9
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220613195210-2a9f95519059
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220613194458-a2acbb4ade5c
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220613195522-9227fb076997
+	k8s.io/api => k8s.io/api v0.0.0-20220614194928-60387f6ceb7c
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220614194717-c5be38573c73
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220614200351-5e46aae63f47
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20220614195233-830d4c462418
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220614194514-4e8f8f5e9126
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20220614195841-c528ad5e18a8
 )
