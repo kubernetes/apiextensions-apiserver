@@ -17,16 +17,17 @@ require (
 	github.com/stretchr/testify v1.7.0
 	go.etcd.io/etcd/client/pkg/v3 v3.5.4
 	go.etcd.io/etcd/client/v3 v3.5.4
+	go.opentelemetry.io/otel/trace v0.20.0
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21
 	google.golang.org/grpc v1.47.0
 	google.golang.org/protobuf v1.28.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20220801041257-f5e1938afa50
-	k8s.io/apimachinery v0.0.0-20220801041106-899984fb2d22
-	k8s.io/apiserver v0.0.0-20220801042533-1d04de9505e1
-	k8s.io/client-go v0.0.0-20220801041543-3e9c4b4f174f
-	k8s.io/code-generator v0.0.0-20220801022634-98b8ad194042
-	k8s.io/component-base v0.0.0-20220801042111-a3c74238b85f
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/kube-openapi v0.0.0-20220627174259-011e075b9cb8
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
@@ -100,7 +101,6 @@ require (
 	go.opentelemetry.io/otel/sdk v0.20.0 // indirect
 	go.opentelemetry.io/otel/sdk/export/metric v0.20.0 // indirect
 	go.opentelemetry.io/otel/sdk/metric v0.20.0 // indirect
-	go.opentelemetry.io/otel/trace v0.20.0 // indirect
 	go.opentelemetry.io/proto/otlp v0.7.0 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
@@ -125,10 +125,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220801041257-f5e1938afa50
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220801041106-899984fb2d22
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220801042533-1d04de9505e1
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220801041543-3e9c4b4f174f
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220801022634-98b8ad194042
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220801042111-a3c74238b85f
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
 )
