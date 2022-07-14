@@ -7,7 +7,7 @@ go 1.18
 require (
 	github.com/emicklei/go-restful/v3 v3.8.0
 	github.com/gogo/protobuf v1.3.2
-	github.com/google/cel-go v0.12.3
+	github.com/google/cel-go v0.12.4
 	github.com/google/gnostic v0.5.7-v3refs
 	github.com/google/go-cmp v0.5.6
 	github.com/google/gofuzz v1.1.0
@@ -21,16 +21,16 @@ require (
 	google.golang.org/grpc v1.47.0
 	google.golang.org/protobuf v1.28.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20220722161209-9a18f7af64ea
-	k8s.io/apimachinery v0.0.0-20220722160306-066110477272
-	k8s.io/apiserver v0.0.0-20220722165500-286d8e736de5
-	k8s.io/client-go v0.0.0-20220722162231-4db4856058cc
-	k8s.io/code-generator v0.0.0-20220719123406-a08f67b4c688
-	k8s.io/component-base v0.0.0-20220722164051-d68b4289d0d7
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/kube-openapi v0.0.0-20220627174259-011e075b9cb8
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
-	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2
+	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1
 	sigs.k8s.io/yaml v1.2.0
 )
@@ -125,10 +125,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220722161209-9a18f7af64ea
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220722160306-066110477272
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220722165500-286d8e736de5
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220722162231-4db4856058cc
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220719123406-a08f67b4c688
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220722164051-d68b4289d0d7
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
 )
