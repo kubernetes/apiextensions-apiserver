@@ -22,17 +22,17 @@ require (
 	google.golang.org/grpc v1.47.0
 	google.golang.org/protobuf v1.28.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20220802150945-1b822083b8d1
-	k8s.io/apimachinery v0.0.0-20220801041106-899984fb2d22
-	k8s.io/apiserver v0.0.0-20220802202714-cf1b5cccd5f8
-	k8s.io/client-go v0.0.0-20220801041543-3e9c4b4f174f
-	k8s.io/code-generator v0.0.0-20220801022634-98b8ad194042
-	k8s.io/component-base v0.0.0-20220802202217-7c32fe5e6dbf
+	k8s.io/api v0.0.0-20220802201338-d351ecda57ef
+	k8s.io/apimachinery v0.0.0-20220802201132-b5410464b8fe
+	k8s.io/apiserver v0.0.0-20220802202716-12d4e067fc94
+	k8s.io/client-go v0.0.0-20220802201639-68639ba114e2
+	k8s.io/code-generator v0.0.0-20220802200936-ce963259532a
+	k8s.io/component-base v0.0.0-20220802202220-e13ba0c426f7
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/kube-openapi v0.0.0-20220627174259-011e075b9cb8
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2
-	sigs.k8s.io/structured-merge-diff/v4 v4.2.1
+	sigs.k8s.io/structured-merge-diff/v4 v4.2.3
 	sigs.k8s.io/yaml v1.2.0
 )
 
@@ -125,10 +125,10 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220802150945-1b822083b8d1
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220801041106-899984fb2d22
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220802202714-cf1b5cccd5f8
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220801041543-3e9c4b4f174f
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220801022634-98b8ad194042
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220802202217-7c32fe5e6dbf
+	k8s.io/api => k8s.io/api v0.0.0-20220802201338-d351ecda57ef
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220802201132-b5410464b8fe
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220802202716-12d4e067fc94
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20220802201639-68639ba114e2
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220802200936-ce963259532a
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20220802202220-e13ba0c426f7
 )
