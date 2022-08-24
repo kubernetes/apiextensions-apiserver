@@ -24,10 +24,10 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20220824023211-49e055e88df6
 	k8s.io/apimachinery v0.0.0-20220824020058-2b9fe2c31fe2
-	k8s.io/apiserver v0.0.0-20220824024607-45217dbeac36
+	k8s.io/apiserver v0.0.0-20220824064146-d41227d5dacd
 	k8s.io/client-go v0.0.0-20220824023532-d5e58631fd5b
 	k8s.io/code-generator v0.0.0-20220824022809-a4e23d1b7f08
-	k8s.io/component-base v0.0.0-20220824024108-c8a569109819
+	k8s.io/component-base v0.0.0-20220824063641-aebd2342be3e
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/kube-openapi v0.0.0-20220803162953-67bda5d908f1
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
@@ -77,7 +77,7 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/prometheus/client_golang v1.12.1 // indirect
+	github.com/prometheus/client_golang v1.12.2 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.32.1 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
@@ -126,8 +126,8 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20220824023211-49e055e88df6
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220824020058-2b9fe2c31fe2
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220824024607-45217dbeac36
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220824064146-d41227d5dacd
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20220824023532-d5e58631fd5b
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220824022809-a4e23d1b7f08
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220824024108-c8a569109819
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20220824063641-aebd2342be3e
 )
