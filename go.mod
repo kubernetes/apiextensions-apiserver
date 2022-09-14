@@ -22,12 +22,12 @@ require (
 	google.golang.org/grpc v1.47.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20220914200722-9842651c0812
-	k8s.io/apimachinery v0.0.0-20220909223208-6d854d747c21
-	k8s.io/apiserver v0.0.0-20220912224333-99533703e188
-	k8s.io/client-go v0.0.0-20220914224331-f6b852180712
-	k8s.io/code-generator v0.0.0-20220913182912-2e5cca781290
-	k8s.io/component-base v0.0.0-20220909225306-3f8aa5a81d31
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/kube-openapi v0.0.0-20220803162953-67bda5d908f1
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
@@ -40,7 +40,7 @@ require (
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
-	github.com/antlr/antlr4/runtime/Go/antlr v0.0.0-20220418222510-f25a4f6275ed // indirect
+	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
@@ -124,10 +124,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220914200722-9842651c0812
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220909223208-6d854d747c21
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220912224333-99533703e188
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220914224331-f6b852180712
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220913182912-2e5cca781290
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220909225306-3f8aa5a81d31
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
 )
