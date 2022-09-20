@@ -24,7 +24,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20220920024110-052d63f042d1
 	k8s.io/apimachinery v0.0.0-20220920023906-f8159af4957e
-	k8s.io/apiserver v0.0.0-20220920151341-d0606e7fc7a8
+	k8s.io/apiserver v0.0.0-20220920224942-68bf362f7726
 	k8s.io/client-go v0.0.0-20220920024403-f7c9c639d451
 	k8s.io/code-generator v0.0.0-20220920023722-4ca0baf2d316
 	k8s.io/component-base v0.0.0-20220920150520-8d91423e4ed5
@@ -53,7 +53,7 @@ require (
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
 	github.com/form3tech-oss/jwt-go v3.2.3+incompatible // indirect
-	github.com/fsnotify/fsnotify v1.4.9 // indirect
+	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
@@ -128,7 +128,7 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20220920024110-052d63f042d1
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220920023906-f8159af4957e
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220920151341-d0606e7fc7a8
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220920224942-68bf362f7726
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20220920024403-f7c9c639d451
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220920023722-4ca0baf2d316
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20220920150520-8d91423e4ed5
