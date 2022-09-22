@@ -22,15 +22,15 @@ require (
 	google.golang.org/grpc v1.49.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20220921024056-79091dac6a32
-	k8s.io/apimachinery v0.0.0-20220920023906-f8159af4957e
-	k8s.io/apiserver v0.0.0-20220921145457-385d0ee999ea
-	k8s.io/client-go v0.0.0-20220921144450-2fd4aac19007
-	k8s.io/code-generator v0.0.0-20220921143723-8e999f2c282e
-	k8s.io/component-base v0.0.0-20220921145036-7b8bf02c4c3a
+	k8s.io/api v0.0.0-20220922184533-be233f856791
+	k8s.io/apimachinery v0.0.0-20220922184044-826a74e82875
+	k8s.io/apiserver v0.0.0-20220922191028-f6346f1d4592
+	k8s.io/client-go v0.0.0-20220922185149-be20b2bd91d8
+	k8s.io/code-generator v0.0.0-20220922164127-998e449a1f89
+	k8s.io/component-base v0.0.0-20220922190256-94e3f30688a2
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/kube-openapi v0.0.0-20220803162953-67bda5d908f1
-	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
+	k8s.io/utils v0.0.0-20220922133306-665eaaec4324
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3
 	sigs.k8s.io/yaml v1.2.0
@@ -124,10 +124,10 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220921024056-79091dac6a32
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220920023906-f8159af4957e
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220921145457-385d0ee999ea
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220921144450-2fd4aac19007
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220921143723-8e999f2c282e
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220921145036-7b8bf02c4c3a
+	k8s.io/api => k8s.io/api v0.0.0-20220922184533-be233f856791
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220922184044-826a74e82875
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220922191028-f6346f1d4592
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20220922185149-be20b2bd91d8
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20220922164127-998e449a1f89
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20220922190256-94e3f30688a2
 )
