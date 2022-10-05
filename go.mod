@@ -22,18 +22,18 @@ require (
 	google.golang.org/grpc v1.49.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20221003194454-3cedfadbe658
-	k8s.io/apimachinery v0.0.0-20220929193440-66e26ac34f07
-	k8s.io/apiserver v0.0.0-20221003195802-2f09ce5f2282
-	k8s.io/client-go v0.0.0-20221003194729-f24bd6967c44
-	k8s.io/code-generator v0.0.0-20221004194136-983d5d088d0f
-	k8s.io/component-base v0.0.0-20220930234846-815a25776f41
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/kube-openapi v0.0.0-20220803162953-67bda5d908f1
 	k8s.io/utils v0.0.0-20220922133306-665eaaec4324
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3
-	sigs.k8s.io/yaml v1.2.0
+	sigs.k8s.io/yaml v1.3.0
 )
 
 require (
@@ -120,16 +120,17 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20220927064431-aef5f8fcd82d // indirect
+	k8s.io/kms v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.33 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221003191214-669318b25bc7
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220929193440-66e26ac34f07
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221003195802-2f09ce5f2282
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221003194729-f24bd6967c44
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20221004194136-983d5d088d0f
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220930234846-815a25776f41
-	k8s.io/kms => k8s.io/kms v0.0.0-20220927064431-aef5f8fcd82d
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
 )
