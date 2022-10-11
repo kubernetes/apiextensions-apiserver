@@ -22,12 +22,12 @@ require (
 	google.golang.org/grpc v1.49.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20221006155042-3638040e4063
-	k8s.io/apimachinery v0.0.0-20221006154840-79993b286671
-	k8s.io/apiserver v0.0.0-20221007001352-a433b219b990
-	k8s.io/client-go v0.0.0-20221006155338-b28f6c94f403
-	k8s.io/code-generator v0.0.0-20221006154648-a8a213c9be7b
-	k8s.io/component-base v0.0.0-20221006160206-ab926674f3ba
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/kube-openapi v0.0.0-20220803162953-67bda5d908f1
 	k8s.io/utils v0.0.0-20220922133306-665eaaec4324
@@ -112,7 +112,7 @@ require (
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
 	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/text v0.3.8 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	golang.org/x/tools v0.1.12 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
@@ -120,16 +120,17 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20220927064431-aef5f8fcd82d // indirect
+	k8s.io/kms v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.33 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221006155042-3638040e4063
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221006154840-79993b286671
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221007001352-a433b219b990
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221006155338-b28f6c94f403
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20221006154648-a8a213c9be7b
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221006160206-ab926674f3ba
-	k8s.io/kms => k8s.io/kms v0.0.0-20220927064431-aef5f8fcd82d
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
 )
