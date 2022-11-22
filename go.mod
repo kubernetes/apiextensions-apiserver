@@ -20,15 +20,15 @@ require (
 	go.opentelemetry.io/otel v1.10.0
 	go.opentelemetry.io/otel/trace v1.10.0
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21
-	google.golang.org/grpc v1.49.0
+	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20221209233039-f05a318e72c8
-	k8s.io/apimachinery v0.0.0-20221209232825-d6e14b0fa141
-	k8s.io/apiserver v0.0.0-20221209234651-6b75f0a9b7dd
-	k8s.io/client-go v0.0.0-20221209233352-d21defd4b1b0
-	k8s.io/code-generator v0.0.0-20221207014433-154dfe63ab2d
-	k8s.io/component-base v0.0.0-20221207022911-5a27a217e76d
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/kube-openapi v0.0.0-20221012153701-172d655c2280
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
@@ -120,16 +120,17 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20221207023524-ba41d7b79a8d // indirect
+	k8s.io/kms v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.33 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221209233039-f05a318e72c8
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221209232825-d6e14b0fa141
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221209234651-6b75f0a9b7dd
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221209233352-d21defd4b1b0
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20221207014433-154dfe63ab2d
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221207022911-5a27a217e76d
-	k8s.io/kms => k8s.io/kms v0.0.0-20221207023524-ba41d7b79a8d
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
 )
