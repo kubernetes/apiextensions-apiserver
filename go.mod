@@ -7,7 +7,7 @@ go 1.19
 require (
 	github.com/emicklei/go-restful v2.9.5+incompatible
 	github.com/gogo/protobuf v1.3.2
-	github.com/google/cel-go v0.10.2
+	github.com/google/cel-go v0.10.4
 	github.com/google/gnostic v0.5.7-v3refs
 	github.com/google/go-cmp v0.5.5
 	github.com/google/gofuzz v1.1.0
@@ -21,12 +21,12 @@ require (
 	google.golang.org/grpc v1.40.0
 	google.golang.org/protobuf v1.27.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20221223023026-8ab18bcbebb1
-	k8s.io/apimachinery v0.0.0-20221223020506-cbd9e8b8f027
-	k8s.io/apiserver v0.0.0-20230110181543-9e6a2c4139b6
-	k8s.io/client-go v0.0.0-20221223031609-fa144945a15f
-	k8s.io/code-generator v0.0.0-20221223014908-d4cee2f9d54c
-	k8s.io/component-base v0.0.0-20221223033407-6b456deee75a
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.60.1
 	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
@@ -120,14 +120,15 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20211129171323-c02415ce4185 // indirect
-	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.35 // indirect
+	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.33 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221223023026-8ab18bcbebb1
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221223020506-cbd9e8b8f027
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230110181543-9e6a2c4139b6
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221223031609-fa144945a15f
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20221223014908-d4cee2f9d54c
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221223033407-6b456deee75a
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
 )
