@@ -7,7 +7,7 @@ go 1.19
 require (
 	github.com/emicklei/go-restful/v3 v3.8.0
 	github.com/gogo/protobuf v1.3.2
-	github.com/google/cel-go v0.12.5
+	github.com/google/cel-go v0.12.6
 	github.com/google/gnostic v0.5.7-v3refs
 	github.com/google/go-cmp v0.5.8
 	github.com/google/gofuzz v1.1.0
@@ -23,7 +23,7 @@ require (
 	google.golang.org/protobuf v1.28.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20221207015936-be0bf1dc3a1b
-	k8s.io/apimachinery v0.0.0-20221207015236-526d075b19f9
+	k8s.io/apimachinery v0.0.0-20230112020654-11eb99b88eea
 	k8s.io/apiserver v0.0.0-20230110182026-4282a8965c14
 	k8s.io/client-go v0.0.0-20221213000309-ab9a2e819915
 	k8s.io/code-generator v0.0.0-20221207014637-08edc9c26591
@@ -125,7 +125,7 @@ require (
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20221207015936-be0bf1dc3a1b
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221207015236-526d075b19f9
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230112020654-11eb99b88eea
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230110182026-4282a8965c14
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20221213000309-ab9a2e819915
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20221207014637-08edc9c26591
