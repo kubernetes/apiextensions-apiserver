@@ -25,9 +25,9 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20230210010415-9fe8a5d4bed8
 	k8s.io/apimachinery v0.0.0-20230210010145-6eedab24c4fc
-	k8s.io/apiserver v0.0.0-20230210012410-ea2072de7b08
-	k8s.io/client-go v0.0.0-20230210010812-d46293369ed0
-	k8s.io/code-generator v0.0.0-20230209235053-8ebad962005b
+	k8s.io/apiserver v0.0.0-20230210043746-942c3101daac
+	k8s.io/client-go v0.0.0-20230213225341-8ef4d7d4e87f
+	k8s.io/code-generator v0.0.0-20230214140507-dfb602f3353d
 	k8s.io/component-base v0.0.0-20230210011719-61596dbae586
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/kube-openapi v0.0.0-20230123231816-1cb3ae25d79a
@@ -120,16 +120,16 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20230210011937-b9022ad45134 // indirect
+	k8s.io/kms v0.0.0-20230211022213-ee413c948c5b // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.1 // indirect
 )
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230210010415-9fe8a5d4bed8
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230210010145-6eedab24c4fc
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230210012410-ea2072de7b08
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230210010812-d46293369ed0
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230209235053-8ebad962005b
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230210043746-942c3101daac
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230213225341-8ef4d7d4e87f
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230214140507-dfb602f3353d
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230210011719-61596dbae586
-	k8s.io/kms => k8s.io/kms v0.0.0-20230210011937-b9022ad45134
+	k8s.io/kms => k8s.io/kms v0.0.0-20230211022213-ee413c948c5b
 )
