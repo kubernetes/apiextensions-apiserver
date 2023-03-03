@@ -24,11 +24,11 @@ require (
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20230303235756-fc1b77c3f4ab
-	k8s.io/apimachinery v0.0.0-20230303235433-5b1cff80ea06
-	k8s.io/apiserver v0.0.0-20230304002344-4d04ac1ed050
-	k8s.io/client-go v0.0.0-20230304000202-d39f8291fc57
+	k8s.io/apimachinery v0.0.0-20230303235435-f357b1fa74b7
+	k8s.io/apiserver v0.0.0-20230304002351-1cdc9eb33b02
+	k8s.io/client-go v0.0.0-20230304000204-06ad6b391d35
 	k8s.io/code-generator v0.0.0-20230303235006-4400d5f574d7
-	k8s.io/component-base v0.0.0-20230304000858-ddedd087ad1e
+	k8s.io/component-base v0.0.0-20230304000900-3bf8af940f29
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/kube-openapi v0.0.0-20230303024457-afdc3dddf62d
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
@@ -120,16 +120,16 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20230303123242-0b3f9dde5fcd // indirect
+	k8s.io/kms v0.0.0-20230304001132-5439f76ca4a7 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.1 // indirect
 )
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230303235756-fc1b77c3f4ab
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230303235433-5b1cff80ea06
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230304002344-4d04ac1ed050
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230304000202-d39f8291fc57
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230303235435-f357b1fa74b7
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230304002351-1cdc9eb33b02
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230304000204-06ad6b391d35
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230303235006-4400d5f574d7
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230304000858-ddedd087ad1e
-	k8s.io/kms => k8s.io/kms v0.0.0-20230303123242-0b3f9dde5fcd
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230304000900-3bf8af940f29
+	k8s.io/kms => k8s.io/kms v0.0.0-20230304001132-5439f76ca4a7
 )
