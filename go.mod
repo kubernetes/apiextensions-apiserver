@@ -2,7 +2,7 @@
 
 module k8s.io/apiextensions-apiserver
 
-go 1.19
+go 1.20
 
 require (
 	github.com/emicklei/go-restful/v3 v3.9.0
@@ -23,12 +23,12 @@ require (
 	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20230310084041-7785f7653f92
-	k8s.io/apimachinery v0.0.0-20230310083533-ca95f42b2383
-	k8s.io/apiserver v0.0.0-20230310090647-8b3d5d0ea884
-	k8s.io/client-go v0.0.0-20230310084519-d2ebc4d27c5a
-	k8s.io/code-generator v0.0.0-20230310082919-4a4a238d07ff
-	k8s.io/component-base v0.0.0-20230310085212-d69652187fff
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/kube-openapi v0.0.0-20230308215209-15aac26d736a
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
@@ -120,16 +120,17 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20230304001132-5439f76ca4a7 // indirect
+	k8s.io/kms v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.1 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230310084041-7785f7653f92
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230310083533-ca95f42b2383
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230310090647-8b3d5d0ea884
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230310084519-d2ebc4d27c5a
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230310082919-4a4a238d07ff
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230310085212-d69652187fff
-	k8s.io/kms => k8s.io/kms v0.0.0-20230304001132-5439f76ca4a7
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
 )
