@@ -23,12 +23,12 @@ require (
 	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20230315055831-abe66f57fdb1
-	k8s.io/apimachinery v0.0.0-20230315054728-8d1258da8f38
-	k8s.io/apiserver v0.0.0-20230315073553-6fb7281a6b4e
-	k8s.io/client-go v0.0.0-20230315061845-84ae514115bd
-	k8s.io/code-generator v0.0.0-20230315053024-8fead9f64de8
-	k8s.io/component-base v0.0.0-20230315065615-6b9bb8ecc3d0
+	k8s.io/api v0.27.0-beta.0
+	k8s.io/apimachinery v0.27.0-beta.0
+	k8s.io/apiserver v0.27.0-beta.0
+	k8s.io/client-go v0.27.0-beta.0
+	k8s.io/code-generator v0.27.0-beta.0
+	k8s.io/component-base v0.27.0-beta.0
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/kube-openapi v0.0.0-20230308215209-15aac26d736a
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
@@ -120,16 +120,16 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20230315071534-1cd5a2e8b457 // indirect
+	k8s.io/kms v0.27.0-beta.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.1 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230315055831-abe66f57fdb1
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230315054728-8d1258da8f38
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230315073553-6fb7281a6b4e
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230315061845-84ae514115bd
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230315053024-8fead9f64de8
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230315065615-6b9bb8ecc3d0
-	k8s.io/kms => k8s.io/kms v0.0.0-20230315071534-1cd5a2e8b457
+	k8s.io/api => k8s.io/api v0.27.0-beta.0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.27.0-beta.0
+	k8s.io/apiserver => k8s.io/apiserver v0.27.0-beta.0
+	k8s.io/client-go => k8s.io/client-go v0.27.0-beta.0
+	k8s.io/code-generator => k8s.io/code-generator v0.27.0-beta.0
+	k8s.io/component-base => k8s.io/component-base v0.27.0-beta.0
+	k8s.io/kms => k8s.io/kms v0.27.0-beta.0
 )
