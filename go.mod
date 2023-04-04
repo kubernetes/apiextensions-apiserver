@@ -12,7 +12,7 @@ require (
 	github.com/google/go-cmp v0.5.9
 	github.com/google/gofuzz v1.2.0
 	github.com/google/uuid v1.3.0
-	github.com/spf13/cobra v1.6.0
+	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.2
 	go.etcd.io/etcd/client/pkg/v3 v3.5.7
@@ -23,12 +23,12 @@ require (
 	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.30.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20230501213527-a09cb4f1f6a0
-	k8s.io/apimachinery v0.0.0-20230501233411-00f5492b5a41
-	k8s.io/apiserver v0.0.0-20230502020025-d77e939d8df1
-	k8s.io/client-go v0.0.0-20230501214135-10f4062eb6e8
-	k8s.io/code-generator v0.0.0-20230501212622-ce065752af56
-	k8s.io/component-base v0.0.0-20230501221019-ba15531b8233
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
@@ -67,7 +67,7 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.0 // indirect
 	github.com/imdario/mergo v0.3.6 // indirect
-	github.com/inconshreveable/mousetrap v1.0.1 // indirect
+	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jonboulle/clockwork v0.2.2 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
@@ -120,16 +120,17 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20230425181524-5ea13ac087e1 // indirect
+	k8s.io/kms v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.2 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230501213527-a09cb4f1f6a0
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230501233411-00f5492b5a41
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230502020025-d77e939d8df1
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230501214135-10f4062eb6e8
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230501212622-ce065752af56
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230501221019-ba15531b8233
-	k8s.io/kms => k8s.io/kms v0.0.0-20230425181524-5ea13ac087e1
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
 )
