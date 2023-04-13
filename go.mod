@@ -14,7 +14,7 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.2
 	go.etcd.io/etcd/client/pkg/v3 v3.5.7
 	go.etcd.io/etcd/client/v3 v3.5.7
 	go.opentelemetry.io/otel v1.10.0
@@ -23,12 +23,12 @@ require (
 	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20230412115724-b0b8e3f95d08
-	k8s.io/apimachinery v0.0.0-20230413173537-bd44860cb75b
-	k8s.io/apiserver v0.0.0-20230413135656-e395bf02154e
-	k8s.io/client-go v0.0.0-20230413125158-46f963913c19
-	k8s.io/code-generator v0.0.0-20230413000802-e28c955d43c2
-	k8s.io/component-base v0.0.0-20230413175749-5190474c236c
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/kube-openapi v0.0.0-20230308215209-15aac26d736a
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
@@ -57,7 +57,7 @@ require (
 	github.com/go-openapi/jsonpointer v0.19.6 // indirect
 	github.com/go-openapi/jsonreference v0.20.1 // indirect
 	github.com/go-openapi/swag v0.22.3 // indirect
-	github.com/golang-jwt/jwt/v4 v4.4.2 // indirect
+	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/btree v1.0.1 // indirect
@@ -105,7 +105,7 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.19.0 // indirect
-	golang.org/x/crypto v0.1.0 // indirect
+	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/mod v0.9.0 // indirect
 	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
@@ -120,16 +120,17 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20230413003758-a38ec9832062 // indirect
+	k8s.io/kms v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.2 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230412115724-b0b8e3f95d08
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230413173537-bd44860cb75b
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230413135656-e395bf02154e
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230413125158-46f963913c19
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230413000802-e28c955d43c2
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230413175749-5190474c236c
-	k8s.io/kms => k8s.io/kms v0.0.0-20230413003758-a38ec9832062
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
 )
