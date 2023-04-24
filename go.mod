@@ -10,7 +10,7 @@ require (
 	github.com/google/cel-go v0.12.6
 	github.com/google/gnostic v0.5.7-v3refs
 	github.com/google/go-cmp v0.5.9
-	github.com/google/gofuzz v1.1.0
+	github.com/google/gofuzz v1.2.0
 	github.com/google/uuid v1.3.0
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
@@ -23,12 +23,12 @@ require (
 	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20230424214209-9dec43fa7a26
+	k8s.io/api v0.0.0-20230424214213-e93fc0e43e75
 	k8s.io/apimachinery v0.0.0-20230424213653-150a158d04ab
-	k8s.io/apiserver v0.0.0-20230424223056-098b4196c25a
-	k8s.io/client-go v0.0.0-20230424215815-e846cbee0dd6
-	k8s.io/code-generator v0.0.0-20230424213333-d0b82bbfefe8
-	k8s.io/component-base v0.0.0-20230424222117-cb3e5be831b8
+	k8s.io/apiserver v0.0.0-20230424223058-c4a4793144c0
+	k8s.io/client-go v0.0.0-20230424215824-d2b87849d5e7
+	k8s.io/code-generator v0.0.0-20230424213334-9423c3dbc45c
+	k8s.io/component-base v0.0.0-20230424222119-16ca987d98cf
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/kube-openapi v0.0.0-20230308215209-15aac26d736a
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
@@ -125,11 +125,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230424214209-9dec43fa7a26
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230424213653-150a158d04ab
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230424223056-098b4196c25a
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230424215815-e846cbee0dd6
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230424213333-d0b82bbfefe8
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230424222117-cb3e5be831b8
+	k8s.io/api => k8s.io/api v0.0.0-20230424214213-e93fc0e43e75
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230424213653-0db4b4996746
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230424223058-c4a4793144c0
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230424215824-d2b87849d5e7
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230424213334-9423c3dbc45c
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230424222119-16ca987d98cf
 	k8s.io/kms => k8s.io/kms v0.0.0-20230424222535-bed3fdf2be1f
 )
