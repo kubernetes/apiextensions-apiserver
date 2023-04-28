@@ -25,8 +25,8 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20230425174508-34a8caec8792
 	k8s.io/apimachinery v0.0.0-20230425174017-478f0974b2e7
-	k8s.io/apiserver v0.0.0-20230427022451-bd86839aba24
-	k8s.io/client-go v0.0.0-20230426214258-68394bf4659a
+	k8s.io/apiserver v0.0.0-20230428220919-d82c5648623a
+	k8s.io/client-go v0.0.0-20230427134925-f775857c5dca
 	k8s.io/code-generator v0.0.0-20230425173437-fcf383781ba5
 	k8s.io/component-base v0.0.0-20230425180508-25833dc857cd
 	k8s.io/klog/v2 v2.90.1
@@ -117,7 +117,7 @@ require (
 	golang.org/x/tools v0.8.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
 	k8s.io/kms v0.0.0-20230425181524-5ea13ac087e1 // indirect
@@ -127,8 +127,8 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230425174508-34a8caec8792
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230425174017-478f0974b2e7
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230427022451-bd86839aba24
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230426214258-68394bf4659a
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230428220919-d82c5648623a
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230427134925-f775857c5dca
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230425173437-fcf383781ba5
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230425180508-25833dc857cd
 	k8s.io/kms => k8s.io/kms v0.0.0-20230425181524-5ea13ac087e1
