@@ -15,8 +15,8 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.2
-	go.etcd.io/etcd/client/pkg/v3 v3.5.7
-	go.etcd.io/etcd/client/v3 v3.5.7
+	go.etcd.io/etcd/client/pkg/v3 v3.5.8
+	go.etcd.io/etcd/client/v3 v3.5.8
 	go.opentelemetry.io/otel v1.10.0
 	go.opentelemetry.io/otel/trace v1.10.0
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21
@@ -25,8 +25,8 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20230503175224-7a87286591e4
 	k8s.io/apimachinery v0.0.0-20230503174314-7ecc58659e5e
-	k8s.io/apiserver v0.0.0-20230503185704-1ea353dbf64b
-	k8s.io/client-go v0.0.0-20230503180228-383ccb06d023
+	k8s.io/apiserver v0.0.0-20230506172115-055116923f88
+	k8s.io/client-go v0.0.0-20230505090544-bbdc95deee6f
 	k8s.io/code-generator v0.0.0-20230503172937-f7315244e4ce
 	k8s.io/component-base v0.0.0-20230503184328-d8237c55bb0d
 	k8s.io/klog/v2 v2.100.1
@@ -88,12 +88,12 @@ require (
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20220101234140-673ab2c3ae75 // indirect
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
-	go.etcd.io/bbolt v1.3.6 // indirect
-	go.etcd.io/etcd/api/v3 v3.5.7 // indirect
-	go.etcd.io/etcd/client/v2 v2.305.7 // indirect
-	go.etcd.io/etcd/pkg/v3 v3.5.7 // indirect
-	go.etcd.io/etcd/raft/v3 v3.5.7 // indirect
-	go.etcd.io/etcd/server/v3 v3.5.7 // indirect
+	go.etcd.io/bbolt v1.3.7 // indirect
+	go.etcd.io/etcd/api/v3 v3.5.8 // indirect
+	go.etcd.io/etcd/client/v2 v2.305.8 // indirect
+	go.etcd.io/etcd/pkg/v3 v3.5.8 // indirect
+	go.etcd.io/etcd/raft/v3 v3.5.8 // indirect
+	go.etcd.io/etcd/server/v3 v3.5.8 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.35.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.35.1 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/internal/retry v1.10.0 // indirect
@@ -127,8 +127,8 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230503175224-7a87286591e4
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230503174314-7ecc58659e5e
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230503185704-1ea353dbf64b
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230503180228-383ccb06d023
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230506172115-055116923f88
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230505090544-bbdc95deee6f
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230503172937-f7315244e4ce
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230503184328-d8237c55bb0d
 	k8s.io/kms => k8s.io/kms v0.0.0-20230503185131-41fec3e2b985
