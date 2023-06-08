@@ -22,12 +22,12 @@ require (
 	google.golang.org/grpc v1.47.0
 	google.golang.org/protobuf v1.28.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20230506010734-a66c7f8978d7
-	k8s.io/apimachinery v0.0.0-20230523181929-844b4ec4956b
-	k8s.io/apiserver v0.0.0-20230523190614-cc1db87e15bb
-	k8s.io/client-go v0.0.0-20230523183903-5ddf75f6a2b2
-	k8s.io/code-generator v0.0.0-20230523181434-6fcc9f28ff8b
-	k8s.io/component-base v0.0.0-20230506014031-03acf95fddee
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/kube-openapi v0.0.0-20220803162953-67bda5d908f1
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
@@ -124,10 +124,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230506010734-a66c7f8978d7
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230523181929-844b4ec4956b
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230523190614-cc1db87e15bb
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230523183903-5ddf75f6a2b2
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230523181434-6fcc9f28ff8b
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230506014031-03acf95fddee
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
 )
