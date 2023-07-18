@@ -6,6 +6,7 @@ go 1.20
 
 require (
 	github.com/emicklei/go-restful/v3 v3.9.0
+	github.com/evanphx/json-patch v5.6.0+incompatible
 	github.com/gogo/protobuf v1.3.2
 	github.com/google/cel-go v0.16.0
 	github.com/google/gnostic-models v0.6.8
@@ -25,7 +26,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20230718170521-0c7a73e2a952
 	k8s.io/apimachinery v0.0.0-20230718054246-5cb236977966
-	k8s.io/apiserver v0.0.0-20230718100354-367a5f819d8b
+	k8s.io/apiserver v0.0.0-20230718215300-f100f84ac4f2
 	k8s.io/client-go v0.0.0-20230718174459-8d42d155509f
 	k8s.io/code-generator v0.0.0-20230718053611-fee1cc937e21
 	k8s.io/component-base v0.0.0-20230718060631-a69210f80f53
@@ -49,7 +50,6 @@ require (
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/evanphx/json-patch v5.6.0+incompatible // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
@@ -129,7 +129,7 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230718170521-0c7a73e2a952
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230718054246-5cb236977966
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230718100354-367a5f819d8b
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230718215300-f100f84ac4f2
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20230718174459-8d42d155509f
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230718053611-fee1cc937e21
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230718060631-a69210f80f53
