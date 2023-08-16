@@ -8,7 +8,7 @@ require (
 	github.com/emicklei/go-restful/v3 v3.9.0
 	github.com/evanphx/json-patch v5.6.0+incompatible
 	github.com/gogo/protobuf v1.3.2
-	github.com/google/cel-go v0.16.0
+	github.com/google/cel-go v0.16.1
 	github.com/google/gnostic-models v0.6.8
 	github.com/google/go-cmp v0.5.9
 	github.com/google/gofuzz v1.2.0
@@ -25,11 +25,11 @@ require (
 	google.golang.org/protobuf v1.30.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20230810042731-2f6eec10c476
-	k8s.io/apimachinery v0.0.0-20230815235016-14436eb53afd
-	k8s.io/apiserver v0.0.0-20230816003244-9ece5c3b707f
-	k8s.io/client-go v0.0.0-20230816000758-856e847bb7cb
+	k8s.io/apimachinery v0.0.0-20230816163301-3e2600dc79fe
+	k8s.io/apiserver v0.0.0-20230817001704-9d077dc3641b
+	k8s.io/client-go v0.0.0-20230816075647-9a5370b1eff6
 	k8s.io/code-generator v0.0.0-20230815234323-164b07cd93ea
-	k8s.io/component-base v0.0.0-20230807211050-31137ad9f7f2
+	k8s.io/component-base v0.0.0-20230816041302-b54afcf379c0
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/kube-openapi v0.0.0-20230717233707-2695361300d9
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
@@ -128,10 +128,10 @@ require (
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230810042731-2f6eec10c476
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230815235016-14436eb53afd
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230816003244-9ece5c3b707f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230816000758-856e847bb7cb
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230816163301-3e2600dc79fe
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230817001704-9d077dc3641b
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230816075647-9a5370b1eff6
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230815234323-164b07cd93ea
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230807211050-31137ad9f7f2
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230816041302-b54afcf379c0
 	k8s.io/kms => k8s.io/kms v0.0.0-20230807211544-e54c40adc2b2
 )
