@@ -26,10 +26,10 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20230907022840-7f63b7b88cb6
 	k8s.io/apimachinery v0.0.0-20230907021858-82362bc34ae0
-	k8s.io/apiserver v0.0.0-20230907032102-ea59eb345547
-	k8s.io/client-go v0.0.0-20230907024014-53c02afd1b4c
+	k8s.io/apiserver v0.0.0-20230908184622-4fc7cd157968
+	k8s.io/client-go v0.0.0-20230908182338-a52e8a122e1b
 	k8s.io/code-generator v0.0.0-20230907021158-6699f387e934
-	k8s.io/component-base v0.0.0-20230907030149-8deb88b04e9a
+	k8s.io/component-base v0.0.0-20230908183701-7050f5242d38
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/kube-openapi v0.0.0-20230717233707-2695361300d9
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
@@ -61,7 +61,7 @@ require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/btree v1.0.1 // indirect
-	github.com/gorilla/websocket v1.4.2 // indirect
+	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
@@ -122,16 +122,16 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
-	k8s.io/kms v0.0.0-20230907031232-abbc44379a34 // indirect
+	k8s.io/kms v0.0.0-20230908184013-759bdd211757 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.2 // indirect
 )
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230907022840-7f63b7b88cb6
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230907021858-82362bc34ae0
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230907032102-ea59eb345547
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230907024014-53c02afd1b4c
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230908184622-4fc7cd157968
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230908182338-a52e8a122e1b
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20230907021158-6699f387e934
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230907030149-8deb88b04e9a
-	k8s.io/kms => k8s.io/kms v0.0.0-20230907031232-abbc44379a34
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230908183701-7050f5242d38
+	k8s.io/kms => k8s.io/kms v0.0.0-20230908184013-759bdd211757
 )
