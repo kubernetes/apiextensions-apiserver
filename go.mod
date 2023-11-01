@@ -16,20 +16,20 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
-	go.etcd.io/etcd/client/pkg/v3 v3.5.9
-	go.etcd.io/etcd/client/v3 v3.5.9
+	go.etcd.io/etcd/client/pkg/v3 v3.5.10
+	go.etcd.io/etcd/client/v3 v3.5.10
 	go.opentelemetry.io/otel v1.19.0
 	go.opentelemetry.io/otel/trace v1.19.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20230726155614-23370e0ffb3e
-	google.golang.org/grpc v1.58.2
+	google.golang.org/grpc v1.58.3
 	google.golang.org/protobuf v1.31.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20231101171312-cd0ecb048ea5
 	k8s.io/apimachinery v0.0.0-20231101171057-16d50e6708ce
-	k8s.io/apiserver v0.0.0-20231101172912-d0f0eebe8c2b
+	k8s.io/apiserver v0.0.0-20231101172914-798e645af694
 	k8s.io/client-go v0.0.0-20231101171620-66e57f767515
 	k8s.io/code-generator v0.0.0-20231101170854-66e74b777ae2
-	k8s.io/component-base v0.0.0-20231101172254-03390ea84924
+	k8s.io/component-base v0.0.0-20231101172256-4b808112b779
 	k8s.io/klog/v2 v2.110.1
 	k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
@@ -89,12 +89,12 @@ require (
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20220101234140-673ab2c3ae75 // indirect
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
-	go.etcd.io/bbolt v1.3.7 // indirect
-	go.etcd.io/etcd/api/v3 v3.5.9 // indirect
-	go.etcd.io/etcd/client/v2 v2.305.9 // indirect
-	go.etcd.io/etcd/pkg/v3 v3.5.9 // indirect
-	go.etcd.io/etcd/raft/v3 v3.5.9 // indirect
-	go.etcd.io/etcd/server/v3 v3.5.9 // indirect
+	go.etcd.io/bbolt v1.3.8 // indirect
+	go.etcd.io/etcd/api/v3 v3.5.10 // indirect
+	go.etcd.io/etcd/client/v2 v2.305.10 // indirect
+	go.etcd.io/etcd/pkg/v3 v3.5.10 // indirect
+	go.etcd.io/etcd/raft/v3 v3.5.10 // indirect
+	go.etcd.io/etcd/server/v3 v3.5.10 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.42.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.44.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.19.0 // indirect
@@ -123,16 +123,16 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20230829151522-9cce18d56c01 // indirect
-	k8s.io/kms v0.0.0-20231031012129-523a5e8e70a1 // indirect
+	k8s.io/kms v0.0.0-20231101172519-156d7b7a0cca // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.28.0 // indirect
 )
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20231101171312-cd0ecb048ea5
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231101171057-16d50e6708ce
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231101172912-d0f0eebe8c2b
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231101172914-798e645af694
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20231101171620-66e57f767515
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20231101170854-66e74b777ae2
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231101172254-03390ea84924
-	k8s.io/kms => k8s.io/kms v0.0.0-20231031012129-523a5e8e70a1
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20231101172256-4b808112b779
+	k8s.io/kms => k8s.io/kms v0.0.0-20231101172519-156d7b7a0cca
 )
