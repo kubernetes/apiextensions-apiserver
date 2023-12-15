@@ -24,7 +24,7 @@ require (
 	google.golang.org/grpc v1.58.3
 	google.golang.org/protobuf v1.31.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20231214051658-d7980a488dca
+	k8s.io/api v0.0.0-20231214211901-8b68618a8732
 	k8s.io/apimachinery v0.0.0-20231214011457-e2f405af78de
 	k8s.io/apiserver v0.0.0-20231214213530-3fcf3290fc53
 	k8s.io/client-go v0.0.0-20231214062645-12b0e099db07
@@ -127,7 +127,7 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231214051658-d7980a488dca
+	k8s.io/api => k8s.io/api v0.0.0-20231214211901-8b68618a8732
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231214011457-e2f405af78de
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20231214213530-3fcf3290fc53
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20231214062645-12b0e099db07
