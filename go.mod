@@ -24,13 +24,13 @@ require (
 	google.golang.org/grpc v1.58.3
 	google.golang.org/protobuf v1.31.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20240118211853-d5724e467262
-	k8s.io/apimachinery v0.0.0-20240118211638-f14778da5523
-	k8s.io/apiserver v0.0.0-20240123212953-888034e53f91
-	k8s.io/client-go v0.0.0-20240122172058-657d7be98b25
-	k8s.io/code-generator v0.0.0-20240118211431-5ad9f43b6468
-	k8s.io/component-base v0.0.0-20240123212339-5f9f8131aa48
-	k8s.io/klog/v2 v2.120.1
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/klog/v2 v2.110.1
 	k8s.io/kube-openapi v0.0.0-20231113174909-778a5567bc1e
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd
@@ -52,7 +52,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
-	github.com/go-logr/logr v1.4.1 // indirect
+	github.com/go-logr/logr v1.3.0 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.6 // indirect
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
@@ -122,16 +122,17 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo v0.0.0-20230829151522-9cce18d56c01 // indirect
-	k8s.io/kms v0.0.0-20231220174908-0e979309a09f // indirect
-	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.28.0 // indirect
+	k8s.io/kms v0.0.0 // indirect
+	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.29.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20240118211853-d5724e467262
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240118211638-f14778da5523
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240123212953-888034e53f91
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20240122172058-657d7be98b25
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20240118211431-5ad9f43b6468
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20240123212339-5f9f8131aa48
-	k8s.io/kms => k8s.io/kms v0.0.0-20231220174908-0e979309a09f
+	k8s.io/api => ../api
+	k8s.io/apiextensions-apiserver => ../apiextensions-apiserver
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
 )
