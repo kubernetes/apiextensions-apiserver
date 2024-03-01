@@ -26,8 +26,8 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20240301204737-cd36300dc819
 	k8s.io/apimachinery v0.0.0-20240301204447-c9969982b5df
-	k8s.io/apiserver v0.0.0-20240301211935-4fa5c0c49246
-	k8s.io/client-go v0.0.0-20240301205136-1bed3f14c117
+	k8s.io/apiserver v0.0.0-20240302014036-0d2b79b3b69c
+	k8s.io/client-go v0.0.0-20240301224102-d48adf87e6e2
 	k8s.io/code-generator v0.0.0-20240301205840-f8417dff616b
 	k8s.io/component-base v0.0.0-20240301210028-15d726cdca18
 	k8s.io/klog/v2 v2.120.1
@@ -129,8 +129,8 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20240301204737-cd36300dc819
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240301204447-c9969982b5df
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240301211935-4fa5c0c49246
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20240301205136-1bed3f14c117
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240302014036-0d2b79b3b69c
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20240301224102-d48adf87e6e2
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20240301205840-f8417dff616b
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20240301210028-15d726cdca18
 	k8s.io/kms => k8s.io/kms v0.0.0-20240301210546-4a4bf5f9988c
