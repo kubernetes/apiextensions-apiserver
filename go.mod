@@ -125,13 +125,3 @@ require (
 	k8s.io/kms v0.0.0-20240307192143-fc669fafe0ea // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.2 // indirect
 )
-
-replace (
-	k8s.io/api => k8s.io/api v0.0.0-20240307174525-45f3ce2f036f
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240307173006-e417b61a6eb6
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240307193730-cfbc44e10c61
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20240307180807-e4b3affe5dda
-	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20240307185233-5f3535d06a25
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20240307190750-1202ed816446
-	k8s.io/kms => k8s.io/kms v0.0.0-20240307192143-fc669fafe0ea
-)
