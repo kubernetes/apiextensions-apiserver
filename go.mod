@@ -24,10 +24,10 @@ require (
 	google.golang.org/grpc v1.58.3
 	google.golang.org/protobuf v1.33.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20240311194616-96558b97565e
+	k8s.io/api v0.0.0-20240327161255-35ca1f4086ff
 	k8s.io/apimachinery v0.0.0-20240307171817-d82afe1e363a
-	k8s.io/apiserver v0.0.0-20240312001401-07ca000ce972
-	k8s.io/client-go v0.0.0-20240309200420-7ebe0ea60e0a
+	k8s.io/apiserver v0.0.0-20240327171119-341f6df0e1e5
+	k8s.io/client-go v0.0.0-20240327162728-b4632b75ff72
 	k8s.io/code-generator v0.0.0-20240327163807-71421176fc0e
 	k8s.io/component-base v0.0.0-20240327164446-ecbd1b6f465d
 	k8s.io/klog/v2 v2.120.1
