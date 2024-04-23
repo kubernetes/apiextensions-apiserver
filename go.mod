@@ -27,7 +27,7 @@ require (
 	k8s.io/api v0.0.0-20240423013409-039b247b85af
 	k8s.io/apimachinery v0.0.0-20240423013216-bb8822152cab
 	k8s.io/apiserver v0.0.0-20240423014832-359c50ed0b4d
-	k8s.io/client-go v0.0.0-20240423013650-47f558294cb9
+	k8s.io/client-go v0.0.0-20240423133638-4a5f0393600d
 	k8s.io/code-generator v0.0.0-20240423014140-679c60fc3088
 	k8s.io/component-base v0.0.0-20240423014306-d7aa2276f5bb
 	k8s.io/klog/v2 v2.120.1
