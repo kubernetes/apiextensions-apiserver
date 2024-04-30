@@ -24,9 +24,9 @@ require (
 	google.golang.org/grpc v1.59.0
 	google.golang.org/protobuf v1.33.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20240429213425-c4ac111f8f96
+	k8s.io/api v0.0.0-20240430013428-7c9431b5bb76
 	k8s.io/apimachinery v0.0.0-20240429213236-d5c9711b77ee
-	k8s.io/apiserver v0.0.0-20240429214845-9dcdab7a7c71
+	k8s.io/apiserver v0.0.0-20240430094439-347290105b75
 	k8s.io/client-go v0.0.0-20240429213655-049f23164924
 	k8s.io/code-generator v0.0.0-20240429214222-de98b55e3b8c
 	k8s.io/component-base v0.0.0-20240429214345-5e40e2a98ae4
