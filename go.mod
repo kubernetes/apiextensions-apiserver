@@ -27,8 +27,8 @@ require (
 	k8s.io/api v0.0.0-20240605203554-c0840f2e39d3
 	k8s.io/apimachinery v0.0.0-20240603234208-703232ea6da4
 	k8s.io/apiserver v0.0.0-20240607045658-d984465b0841
-	k8s.io/client-go v0.0.0-20240607044045-1c075dc88cc6
-	k8s.io/code-generator v0.0.0-20240531004635-2ec7af029e9a
+	k8s.io/client-go v0.0.0-20240607084044-1fc4f8ad3496
+	k8s.io/code-generator v0.0.0-20240607084550-8d055c77cf9e
 	k8s.io/component-base v0.0.0-20240531004836-3486e8d18caf
 	k8s.io/klog/v2 v2.120.1
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340
