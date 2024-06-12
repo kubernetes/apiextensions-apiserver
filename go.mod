@@ -26,10 +26,10 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20240611003639-590e50434bf1
 	k8s.io/apimachinery v0.0.0-20240611003333-1a6a62ad18e9
-	k8s.io/apiserver v0.0.0-20240611010219-800e73917fc2
-	k8s.io/client-go v0.0.0-20240611004119-911684686f22
+	k8s.io/apiserver v0.0.0-20240612131141-43d2be33ec5a
+	k8s.io/client-go v0.0.0-20240611082225-03443e7ede0e
 	k8s.io/code-generator v0.0.0-20240611005046-3a49e5b429ad
-	k8s.io/component-base v0.0.0-20240611005304-e4e29391883e
+	k8s.io/component-base v0.0.0-20240612123904-00e09447c2e9
 	k8s.io/klog/v2 v2.120.1
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
