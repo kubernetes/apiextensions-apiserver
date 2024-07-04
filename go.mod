@@ -24,12 +24,12 @@ require (
 	google.golang.org/protobuf v1.34.2
 	gopkg.in/evanphx/json-patch.v4 v4.12.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20240628062210-70c01741beda
-	k8s.io/apimachinery v0.0.0-20240628061934-adf72dd6c5c2
-	k8s.io/apiserver v0.0.0-20240628064310-5addfa30ff82
-	k8s.io/client-go v0.0.0-20240628062603-ae071bc75ff9
-	k8s.io/code-generator v0.0.0-20240628063342-ab86cd677d29
-	k8s.io/component-base v0.0.0-20240628063534-3b0f2cefb281
+	k8s.io/api v0.0.0-20240630182222-e7b4471d3970
+	k8s.io/apimachinery v0.0.0-20240628175805-ef4453d2613f
+	k8s.io/apiserver v0.0.0-20240704225329-aa4d1a9cc70d
+	k8s.io/client-go v0.0.0-20240630182625-ab86e03da476
+	k8s.io/code-generator v0.0.0-20240629022749-633962a2fc25
+	k8s.io/component-base v0.0.0-20240704224317-96b10a25f16c
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
