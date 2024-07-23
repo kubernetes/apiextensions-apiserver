@@ -12,6 +12,7 @@ require (
 	github.com/google/go-cmp v0.6.0
 	github.com/google/gofuzz v1.2.0
 	github.com/google/uuid v1.6.0
+	github.com/pkg/errors v0.9.1
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.9.0
@@ -24,12 +25,12 @@ require (
 	google.golang.org/protobuf v1.34.2
 	gopkg.in/evanphx/json-patch.v4 v4.12.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20240720022854-7d5e5eaf3aef
-	k8s.io/apimachinery v0.0.0-20240719223001-62791ecbc514
-	k8s.io/apiserver v0.0.0-20240720104541-d681845e4f6a
-	k8s.io/client-go v0.0.0-20240719063343-5130bd9e7862
+	k8s.io/api v0.0.0-20240722223049-b689d905290f
+	k8s.io/apimachinery v0.0.0-20240720202316-95b78024e3fe
+	k8s.io/apiserver v0.0.0-20240723030233-2b2a4b0fa8e4
+	k8s.io/client-go v0.0.0-20240723023642-bad8f77ca6ef
 	k8s.io/code-generator v0.0.0-20240720023521-ec3cc888df4c
-	k8s.io/component-base v0.0.0-20240715183844-6f32dbe8ef25
+	k8s.io/component-base v0.0.0-20240722183709-6cc953a9d440
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
@@ -78,7 +79,6 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/mxk/go-flowrate v0.0.0-20140419014527-cca7078d478f // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_golang v1.19.1 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
