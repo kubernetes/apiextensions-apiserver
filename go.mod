@@ -20,15 +20,14 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.14
 	go.opentelemetry.io/otel v1.28.0
 	go.opentelemetry.io/otel/trace v1.28.0
-	google.golang.org/genproto/googleapis/api v0.0.0-20240528184218-531527333157
 	google.golang.org/grpc v1.65.0
 	google.golang.org/protobuf v1.34.2
 	gopkg.in/evanphx/json-patch.v4 v4.12.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20240723194852-871340c2e998
+	k8s.io/api v0.0.0-20240724010313-f04ea0bc861d
 	k8s.io/apimachinery v0.0.0-20240720202316-95b78024e3fe
-	k8s.io/apiserver v0.0.0-20240723210659-c90207143c20
-	k8s.io/client-go v0.0.0-20240723200359-dcfcc90795cc
+	k8s.io/apiserver v0.0.0-20240724012351-92ee9330ce6a
+	k8s.io/client-go v0.0.0-20240724010704-ac9204c6195b
 	k8s.io/code-generator v0.0.0-20240720023521-ec3cc888df4c
 	k8s.io/component-base v0.0.0-20240722183709-6cc953a9d440
 	k8s.io/klog/v2 v2.130.1
@@ -117,6 +116,7 @@ require (
 	golang.org/x/time v0.3.0 // indirect
 	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	google.golang.org/genproto v0.0.0-20230822172742-b8732ec3820d // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20240528184218-531527333157 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240701130421-f6361c86f094 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
@@ -125,3 +125,5 @@ require (
 	k8s.io/kms v0.0.0-20240707024556-6e3528fa4c33 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.30.3 // indirect
 )
+
+replace k8s.io/api => k8s.io/api v0.0.0-20240724010313-a789efa287e8
