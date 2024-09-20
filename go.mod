@@ -26,11 +26,11 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.12.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20240918001733-e14a61a8c7c2
-	k8s.io/apimachinery v0.0.0-20240913152823-0fc0110cc2ce
-	k8s.io/apiserver v0.0.0-20240918004709-87a949c64a2f
-	k8s.io/client-go v0.0.0-20240917205444-4f57ad32047b
-	k8s.io/code-generator v0.0.0-20240912035934-fcd2ca00e024
-	k8s.io/component-base v0.0.0-20240918003629-2a1fb6841426
+	k8s.io/apimachinery v0.0.0-20240919081406-f7615f37d717
+	k8s.io/apiserver v0.0.0-20240920164425-3f8a6ad61c09
+	k8s.io/client-go v0.0.0-20240920162441-40a93af7883a
+	k8s.io/code-generator v0.0.0-20240920005538-61df8a8f0355
+	k8s.io/component-base v0.0.0-20240918042634-49269eb05058
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20240827152857-f7e401e7b4c2
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
