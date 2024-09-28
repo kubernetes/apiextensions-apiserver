@@ -27,10 +27,10 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20240920202009-71385f038c10
 	k8s.io/apimachinery v0.0.0-20240926041705-dc03077c038e
-	k8s.io/apiserver v0.0.0-20240927123849-326460d62e65
-	k8s.io/client-go v0.0.0-20240928042558-374753a638fc
+	k8s.io/apiserver v0.0.0-20240928084133-42502d245d51
+	k8s.io/client-go v0.0.0-20240928082459-2d7a47c42bfc
 	k8s.io/code-generator v0.0.0-20240928043524-06ae20b53fb1
-	k8s.io/component-base v0.0.0-20240925163420-d035a48b952d
+	k8s.io/component-base v0.0.0-20240928083227-66de10e147bc
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20240827152857-f7e401e7b4c2
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
@@ -68,7 +68,6 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.20.0 // indirect
-	github.com/imdario/mergo v0.3.6 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jonboulle/clockwork v0.2.2 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
