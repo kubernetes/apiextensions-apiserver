@@ -8,6 +8,7 @@ godebug default=go1.23
 
 require (
 	github.com/emicklei/go-restful/v3 v3.11.0
+	github.com/fxamacker/cbor/v2 v2.7.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/google/cel-go v0.21.0
 	github.com/google/gnostic-models v0.6.8
@@ -25,7 +26,7 @@ require (
 	google.golang.org/protobuf v1.34.2
 	gopkg.in/evanphx/json-patch.v4 v4.12.0
 	k8s.io/api v0.0.0-20241011135352-a432ebea6002
-	k8s.io/apimachinery v0.0.0-20241011134855-ee6d9667b400
+	k8s.io/apimachinery v0.0.0-20241012054809-2b29434a8c7f
 	k8s.io/apiserver v0.0.0-20241011142704-ebe463fe323e
 	k8s.io/client-go v0.0.0-20241011140021-64f5574f09ee
 	k8s.io/code-generator v0.0.0-20241011141217-40ce9917c435
@@ -52,7 +53,6 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
-	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.21.0 // indirect
