@@ -10,7 +10,7 @@ require (
 	github.com/emicklei/go-restful/v3 v3.11.0
 	github.com/fxamacker/cbor/v2 v2.7.0
 	github.com/gogo/protobuf v1.3.2
-	github.com/google/cel-go v0.21.0
+	github.com/google/cel-go v0.22.0
 	github.com/google/gnostic-models v0.6.8
 	github.com/google/go-cmp v0.6.0
 	github.com/google/gofuzz v1.2.0
@@ -27,10 +27,10 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.12.0
 	k8s.io/api v0.0.0-20241106230208-459b3bf01982
 	k8s.io/apimachinery v0.0.0-20241106231735-d941d9fb4c83
-	k8s.io/apiserver v0.0.0-20241107032434-b5e6c92c1d6a
+	k8s.io/apiserver v0.0.0-20241107032436-3a2942bdffd0
 	k8s.io/client-go v0.0.0-20241107030607-c57dbd8decb0
 	k8s.io/code-generator v0.0.0-20241106070739-f098592c8cde
-	k8s.io/component-base v0.0.0-20241105231555-33a822ed3833
+	k8s.io/component-base v0.0.0-20241107031631-88ede593c6c4
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
@@ -40,6 +40,7 @@ require (
 )
 
 require (
+	cel.dev/expr v0.18.0 // indirect
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a // indirect
@@ -115,12 +116,12 @@ require (
 	golang.org/x/time v0.7.0 // indirect
 	golang.org/x/tools v0.26.0 // indirect
 	google.golang.org/genproto v0.0.0-20240123012728-ef4313101c80 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20240528184218-531527333157 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240701130421-f6361c86f094 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20240826202546-f6391c0de4c7 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240826202546-f6391c0de4c7 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo/v2 v2.0.0-20240911193312-2b36238f13e9 // indirect
-	k8s.io/kms v0.0.0-20241101191923-aa635f2d841b // indirect
+	k8s.io/kms v0.0.0-20241107031913-7a7a59ea9c74 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.0 // indirect
 )
