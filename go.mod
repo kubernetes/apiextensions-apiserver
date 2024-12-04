@@ -6,6 +6,10 @@ go 1.23.0
 
 godebug default=go1.23
 
+godebug winreadlinkvolume=0
+
+godebug winsymlink=0
+
 require (
 	github.com/emicklei/go-restful/v3 v3.11.0
 	github.com/fxamacker/cbor/v2 v2.7.0
@@ -25,12 +29,12 @@ require (
 	google.golang.org/grpc v1.65.0
 	google.golang.org/protobuf v1.35.1
 	gopkg.in/evanphx/json-patch.v4 v4.12.0
-	k8s.io/api v0.0.0-20241108114318-6cc44b8953ae
-	k8s.io/apimachinery v0.0.0-20241108022104-96b97de8d6ba
-	k8s.io/apiserver v0.0.0-20241108130139-3423727e46ef
-	k8s.io/client-go v0.0.0-20241108175443-37045084c2aa
-	k8s.io/code-generator v0.0.0-20241108211220-b15df6411b47
-	k8s.io/component-base v0.0.0-20241108211412-55c45bc78189
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
@@ -122,6 +126,16 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo/v2 v2.0.0-20240911193312-2b36238f13e9 // indirect
-	k8s.io/kms v0.0.0-20241107031913-7a7a59ea9c74 // indirect
+	k8s.io/kms v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
 )
