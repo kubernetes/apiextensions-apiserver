@@ -29,10 +29,10 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.12.0
 	k8s.io/api v0.0.0-20250218234707-8ce7fe8996bd
 	k8s.io/apimachinery v0.0.0-20250214214420-47e7fa9a40a2
-	k8s.io/apiserver v0.0.0-20250218200321-52dde339a1be
-	k8s.io/client-go v0.0.0-20250215195049-90ccd59ab165
+	k8s.io/apiserver v0.0.0-20250219041041-938d466e86e3
+	k8s.io/client-go v0.0.0-20250219035121-72c2d4d41534
 	k8s.io/code-generator v0.0.0-20250211120344-47286fcaaaaa
-	k8s.io/component-base v0.0.0-20250206205508-05a58ccfe08d
+	k8s.io/component-base v0.0.0-20250219040255-ff8818df2c0e
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20241212222426-2c72e554b1e7
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
@@ -63,7 +63,7 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.5.1 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/btree v1.1.3 // indirect
-	github.com/gorilla/websocket v1.5.0 // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
