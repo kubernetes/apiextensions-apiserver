@@ -29,7 +29,7 @@ require (
 	k8s.io/apimachinery v0.0.0-20250503031111-512f488de379
 	k8s.io/apiserver v0.0.0-20250503034220-eeced267adc0
 	k8s.io/client-go v0.0.0-20250503031754-7aa362d5dd59
-	k8s.io/code-generator v0.0.0-20250503032644-1124c4112454
+	k8s.io/code-generator v0.0.0-20250503071920-ec35be305d73
 	k8s.io/component-base v0.0.0-20250503032835-394b28e84ba2
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20250318190949-c8a335a9a2ff

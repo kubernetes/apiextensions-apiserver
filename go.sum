@@ -370,8 +370,8 @@ k8s.io/apiserver v0.0.0-20250503034220-eeced267adc0 h1:YCpSYfYVAMLt2qKdD5dQvWBVN
 k8s.io/apiserver v0.0.0-20250503034220-eeced267adc0/go.mod h1:jSZl842ERAujO2aO9Fd2kSDzMcUmP3V88nURIWlAas4=
 k8s.io/client-go v0.0.0-20250503031754-7aa362d5dd59 h1:n8NUttTLfP515BaQfYTG+ktgOhXknisqBRg2ttvGMzM=
 k8s.io/client-go v0.0.0-20250503031754-7aa362d5dd59/go.mod h1:M+V5ZD54hCEexMLVuebHThquNdpXZdNqpuDCoD1LjSM=
-k8s.io/code-generator v0.0.0-20250503032644-1124c4112454 h1:uPnw6nc/YDYdGwqynaA5R0W79ALQPE2UOM9w30kgZm8=
-k8s.io/code-generator v0.0.0-20250503032644-1124c4112454/go.mod h1:ti9Yh4kCnzMGX288mOPDWBEd31fLGuo8lkJHXHZsBt4=
+k8s.io/code-generator v0.0.0-20250503071920-ec35be305d73 h1:356lrpmCX3X8duUkwOMwJA/1EE7yy9phQa3HZR/7Q6Y=
+k8s.io/code-generator v0.0.0-20250503071920-ec35be305d73/go.mod h1:ti9Yh4kCnzMGX288mOPDWBEd31fLGuo8lkJHXHZsBt4=
 k8s.io/component-base v0.0.0-20250503032835-394b28e84ba2 h1:Sn22KR7kHIivpSgJYqNzt5d2mBYBipLAXLK02SlVqHM=
 k8s.io/component-base v0.0.0-20250503032835-394b28e84ba2/go.mod h1:WgzO+P6/OI1nAOmj6BPnmaioKc8o9E9RdXNOCfIOV4U=
 k8s.io/gengo/v2 v2.0.0-20250207200755-1244d31929d7 h1:2OX19X59HxDprNCVrWi6jb7LW1PoqTlYqEq5H2oetog=
