@@ -126,3 +126,5 @@ require (
 	k8s.io/kms v0.0.0-20250716213631-bbefe5cb7a2e // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.2 // indirect
 )
+
+replace k8s.io/api => k8s.io/api v0.0.0-20250725024535-9bc89ec036ec
