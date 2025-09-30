@@ -304,8 +304,8 @@ k8s.io/client-go v0.0.0-20250929192726-5eac01c2bb55 h1:VJDMZBpwiO8tLGelK/I8Ya3GT
 k8s.io/client-go v0.0.0-20250929192726-5eac01c2bb55/go.mod h1:QU7JGxRCfyhP6ZIE+A+7BhoAnJolaWuH6Dh3NTpH8Sk=
 k8s.io/code-generator v0.0.0-20250926192901-f77d266697a5 h1:FZizIJvaP96cmQ4K6yy8SpmD9GpXWcY/0LoIdU4XFO0=
 k8s.io/code-generator v0.0.0-20250926192901-f77d266697a5/go.mod h1:CA7yjBwWEUZcvy+8JZTi5cZNAy5a0AG43uAVTnv3/ds=
-k8s.io/component-base v0.0.0-20250919034137-4453c3be72a8 h1:6ori9Hm1g6OqXGZa9ihRpScRfwRnVwf0PpqzTu2KCl0=
-k8s.io/component-base v0.0.0-20250919034137-4453c3be72a8/go.mod h1:k2hnvURL10Hd0tc/Tn7RZprCv4tlRGtDqYD3GSRo/NE=
+k8s.io/component-base v0.0.0-20250930153136-66f123b5ac6a h1:40tugOkDa2yxeCGR35eJOeNdHIXQt/610okoFxb6Zt0=
+k8s.io/component-base v0.0.0-20250930153136-66f123b5ac6a/go.mod h1:W22InbHsMbwfSRy9wR+2tl0soSSJFMELYq+qdLu9ysc=
 k8s.io/gengo/v2 v2.0.0-20250922181213-ec3ebc5fd46b h1:gMplByicHV/TJBizHd9aVEsTYoJBnnUAT5MHlTkbjhQ=
 k8s.io/gengo/v2 v2.0.0-20250922181213-ec3ebc5fd46b/go.mod h1:CgujABENc3KuTrcsdpGmrrASjtQsWCT7R99mEV4U/fM=
 k8s.io/klog/v2 v2.130.1 h1:n9Xl7H1Xvksem4KFG4PYbdQCQxqc/tTUyrgXaOhHSzk=
