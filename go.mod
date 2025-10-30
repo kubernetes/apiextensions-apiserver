@@ -28,10 +28,10 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
 	k8s.io/api v0.0.0-20251030032104-67e96f7d5671
 	k8s.io/apimachinery v0.0.0-20251029233601-5a85a549ac04
-	k8s.io/apiserver v0.0.0-20251028233835-ffa5761b14d7
+	k8s.io/apiserver v0.0.0-20251030233944-92511598dc0b
 	k8s.io/client-go v0.0.0-20251030152624-63b5f5942509
 	k8s.io/code-generator v0.0.0-20251030032801-5f73d6adbd99
-	k8s.io/component-base v0.0.0-20251030233028-fc6fbc64dfc7
+	k8s.io/component-base v0.0.0-20251030233029-3a1cbfb75a20
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20250910181357-589584f1c912
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
