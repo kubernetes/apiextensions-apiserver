@@ -26,10 +26,10 @@ require (
 	google.golang.org/grpc v1.72.2
 	google.golang.org/protobuf v1.36.8
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
-	k8s.io/api v0.0.0-20251218062647-56ee7b10ed3f
-	k8s.io/apimachinery v0.0.0-20251218062152-a9de6f8b12f4
-	k8s.io/apiserver v0.0.0-20251218065946-045a035da69b
-	k8s.io/client-go v0.0.0-20251218063304-ca2dee6d058e
+	k8s.io/api v0.0.0-20251218062648-50474f4a1619
+	k8s.io/apimachinery v0.0.0-20251218062153-94056eccfb12
+	k8s.io/apiserver v0.0.0-20251218144801-855be38953bd
+	k8s.io/client-go v0.0.0-20251218063306-1aef261f0ad5
 	k8s.io/code-generator v0.0.0-20251218023844-9e814c2dceb6
 	k8s.io/component-base v0.0.0-20251204225730-8cb15f10375f
 	k8s.io/klog/v2 v2.130.1
@@ -50,7 +50,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
-	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
+	github.com/coreos/go-systemd/v22 v22.6.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
