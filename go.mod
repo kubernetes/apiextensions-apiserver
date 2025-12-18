@@ -16,8 +16,8 @@ require (
 	github.com/spf13/cobra v1.10.0
 	github.com/spf13/pflag v1.0.9
 	github.com/stretchr/testify v1.11.1
-	go.etcd.io/etcd/client/pkg/v3 v3.6.5
-	go.etcd.io/etcd/client/v3 v3.6.5
+	go.etcd.io/etcd/client/pkg/v3 v3.6.6
+	go.etcd.io/etcd/client/v3 v3.6.6
 	go.opentelemetry.io/otel v1.36.0
 	go.opentelemetry.io/otel/trace v1.36.0
 	go.yaml.in/yaml/v2 v2.4.3
@@ -26,10 +26,10 @@ require (
 	google.golang.org/grpc v1.72.2
 	google.golang.org/protobuf v1.36.8
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
-	k8s.io/api v0.0.0-20251218022515-cc3b8d55eb43
-	k8s.io/apimachinery v0.0.0-20251218022201-cec5dd05301e
-	k8s.io/apiserver v0.0.0-20251218024918-ebef3486a40c
-	k8s.io/client-go v0.0.0-20251218022938-0d964cc38634
+	k8s.io/api v0.0.0-20251218062647-56ee7b10ed3f
+	k8s.io/apimachinery v0.0.0-20251218062152-a9de6f8b12f4
+	k8s.io/apiserver v0.0.0-20251218065946-045a035da69b
+	k8s.io/client-go v0.0.0-20251218063304-ca2dee6d058e
 	k8s.io/code-generator v0.0.0-20251218023844-9e814c2dceb6
 	k8s.io/component-base v0.0.0-20251204225730-8cb15f10375f
 	k8s.io/klog/v2 v2.130.1
@@ -92,9 +92,9 @@ require (
 	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xiang90/probing v0.0.0-20221125231312-a49e3df8f510 // indirect
 	go.etcd.io/bbolt v1.4.3 // indirect
-	go.etcd.io/etcd/api/v3 v3.6.5 // indirect
-	go.etcd.io/etcd/pkg/v3 v3.6.5 // indirect
-	go.etcd.io/etcd/server/v3 v3.6.5 // indirect
+	go.etcd.io/etcd/api/v3 v3.6.6 // indirect
+	go.etcd.io/etcd/pkg/v3 v3.6.6 // indirect
+	go.etcd.io/etcd/server/v3 v3.6.6 // indirect
 	go.etcd.io/raft/v3 v3.6.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.60.0 // indirect
