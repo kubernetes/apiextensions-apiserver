@@ -26,11 +26,11 @@ require (
 	google.golang.org/grpc v1.78.0
 	google.golang.org/protobuf v1.36.11
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
-	k8s.io/api v0.0.0-20260205193817-6f99b47a2bbd
+	k8s.io/api v0.0.0-20260206114330-2024a969c4aa
 	k8s.io/apimachinery v0.0.0-20260205233455-f12546b4989d
-	k8s.io/apiserver v0.0.0-20260206042048-5e3b5828a544
-	k8s.io/client-go v0.0.0-20260206035242-67ce5196123a
-	k8s.io/code-generator v0.0.0-20260206040502-0f34ff6ed017
+	k8s.io/apiserver v0.0.0-20260209201443-2703d338d46c
+	k8s.io/client-go v0.0.0-20260210000021-c6e2e47b317b
+	k8s.io/code-generator v0.0.0-20260209200359-dcd4edcd2efc
 	k8s.io/component-base v0.0.0-20260206040835-47eac12b75a4
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20260127142750-a19766b6e2d4
