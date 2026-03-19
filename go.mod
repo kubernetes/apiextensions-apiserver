@@ -23,15 +23,15 @@ require (
 	go.yaml.in/yaml/v2 v2.4.3
 	golang.org/x/sync v0.19.0
 	golang.org/x/text v0.33.0
-	google.golang.org/grpc v1.78.0
+	google.golang.org/grpc v1.79.3
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
-	k8s.io/api v0.0.0-20260318195839-1ee4dbfb376b
-	k8s.io/apimachinery v0.0.0-20260318195418-729062d58854
-	k8s.io/apiserver v0.0.0-20260318203813-c2576b4b6b22
-	k8s.io/client-go v0.0.0-20260318200515-2fb6b9cac00d
-	k8s.io/code-generator v0.0.0-20260318201857-f4e4b3a54116
-	k8s.io/component-base v0.0.0-20260318202210-7dbe9af30685
+	k8s.io/api v0.0.0-20260319133255-6c9fd9d7339f
+	k8s.io/apimachinery v0.0.0-20260409182412-79b363268543
+	k8s.io/apiserver v0.0.0-20260319230307-2f7d9d44a5d2
+	k8s.io/client-go v0.0.0-20260319042611-01310540169f
+	k8s.io/code-generator v0.0.0-20260409190815-a8853d1b469d
+	k8s.io/component-base v0.0.0-20260409191430-f6886839cc52
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
@@ -42,7 +42,7 @@ require (
 )
 
 require (
-	cel.dev/expr v0.24.0 // indirect
+	cel.dev/expr v0.25.1 // indirect
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -121,7 +121,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo/v2 v2.0.0-20250922181213-ec3ebc5fd46b // indirect
-	k8s.io/kms v0.0.0-20260306083908-2d26e8225029 // indirect
-	k8s.io/streaming v0.0.0-20260317070603-951b6bf67777 // indirect
+	k8s.io/kms v0.0.0-20260409192300-44b5484ac92e // indirect
+	k8s.io/streaming v0.0.0-20260409181516-ff6889be5347 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.34.0 // indirect
 )
