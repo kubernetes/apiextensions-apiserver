@@ -8,7 +8,7 @@ godebug default=go1.26
 
 require (
 	github.com/emicklei/go-restful/v3 v3.13.0
-	github.com/fxamacker/cbor/v2 v2.9.0
+	github.com/fxamacker/cbor/v2 v2.9.1
 	github.com/google/cel-go v0.27.0
 	github.com/google/gnostic-models v0.7.0
 	github.com/google/go-cmp v0.7.0
@@ -26,12 +26,12 @@ require (
 	google.golang.org/grpc v1.80.0
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
-	k8s.io/api v0.0.0-20260424110828-103005c29633
-	k8s.io/apimachinery v0.0.0-20260424110436-5138150d0bbc
-	k8s.io/apiserver v0.0.0-20260424113702-a640ccbbd905
-	k8s.io/client-go v0.0.0-20260424111355-1f2893e6110a
-	k8s.io/code-generator v0.0.0-20260424112400-c459c16f4dc7
-	k8s.io/component-base v0.0.0-20260424112635-fb93ad6f1763
+	k8s.io/api v0.0.0-20260424110830-aca5bee66d09
+	k8s.io/apimachinery v0.0.0-20260424110437-f75bcf7bc970
+	k8s.io/apiserver v0.0.0-20260424113704-96785f982459
+	k8s.io/client-go v0.0.0-20260424111358-5834c79c33cb
+	k8s.io/code-generator v0.0.0-20260424112401-ef724af2e226
+	k8s.io/component-base v0.0.0-20260424112638-91c34d95ebe1
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
