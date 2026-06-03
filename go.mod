@@ -23,12 +23,11 @@ require (
 	go.yaml.in/yaml/v2 v2.4.4
 	golang.org/x/sync v0.20.0
 	golang.org/x/text v0.37.0
-	google.golang.org/grpc v1.81.1
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
 	k8s.io/api v0.0.0-20260602192856-213581e113dc
 	k8s.io/apimachinery v0.0.0-20260602192419-f1a3b2b13478
-	k8s.io/apiserver v0.0.0-20260602200318-7952957072cc
+	k8s.io/apiserver v0.0.0-20260603075504-55a191b249cb
 	k8s.io/client-go v0.0.0-20260602193509-274207396afe
 	k8s.io/code-generator v0.0.0-20260602194737-3434b69d446f
 	k8s.io/component-base v0.0.0-20260602195049-cb873a9ac2a1
@@ -123,6 +122,7 @@ require (
 	golang.org/x/tools v0.44.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260526163538-3dc84a4a5aaa // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa // indirect
+	google.golang.org/grpc v1.81.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
