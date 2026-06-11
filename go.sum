@@ -277,8 +277,8 @@ k8s.io/api v0.0.0-20260611174042-bf4a8942ecc3 h1:0GVWRf3s0s8ia1x6hrkUGoILernUPAK
 k8s.io/api v0.0.0-20260611174042-bf4a8942ecc3/go.mod h1:ZyQmN55pBE5+Dr++A1tHbGUCfnftRcm1WArlebMuVl0=
 k8s.io/apimachinery v0.0.0-20260611040056-c12c3cb2dc6b h1:RAVGLeZG93HMSWfH5IPC8gR8uH0v97YCGLrX8BvzfMQ=
 k8s.io/apimachinery v0.0.0-20260611040056-c12c3cb2dc6b/go.mod h1:fimydsj7+VrAUXJvVoRBL9TgvZfVdrtsBIEHiLUQC4I=
-k8s.io/apiserver v0.0.0-20260611163621-ab0c438a8fc7 h1:lhezM8NkqYhrmyBdZE/GDZdAACaH4GWxmCXAA3Fiurc=
-k8s.io/apiserver v0.0.0-20260611163621-ab0c438a8fc7/go.mod h1:wkQxq9s4SRqmi07YM3S6n5AzxeGIah6A/2lBEy0q/Ng=
+k8s.io/apiserver v0.0.0-20260612003527-eaa772c71988 h1:ei/NmTaHvKTIJKkh1MjC5IGd9Zozx+ETiuqPEzwKfjA=
+k8s.io/apiserver v0.0.0-20260612003527-eaa772c71988/go.mod h1:4W3W+v2C4qRQ7YCVMTne9kTm2PPsDcVlrtGBHaITGk8=
 k8s.io/client-go v0.0.0-20260611041423-394ed525a635 h1:ZfQl8uzGK6rMszuH5qGpn4Y2d549gTuWXFNpSAejrpY=
 k8s.io/client-go v0.0.0-20260611041423-394ed525a635/go.mod h1:tIH1dSjKrfexORFmvEW2dDqRlo85V2/bYHT9ntSSUuQ=
 k8s.io/code-generator v0.0.0-20260611042848-968f73a80d18 h1:M8am/5VsbBNLxcG6xov6SKcXNsR9lYgJaVgiCeudDpE=
@@ -297,8 +297,8 @@ k8s.io/streaming v0.0.0-20260602192112-0a84e25f8e5e h1:hk+SAa1pedjgwlCSfpcY0gHgG
 k8s.io/streaming v0.0.0-20260602192112-0a84e25f8e5e/go.mod h1:QN1+yCAfxcSvo0908Z3rFKkA5Xlr3KgUZAGwKuR6qQk=
 k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2 h1:AZYQSJemyQB5eRxqcPky+/7EdBj0xi3g0ZcxxJ7vbWU=
 k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2/go.mod h1:xDxuJ0whA3d0I4mf/C4ppKHxXynQ+fxnkmQH0vTHnuk=
-sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.34.0 h1:hSfpvjjTQXQY2Fol2CS0QHMNs/WI1MOSGzCm1KhM5ec=
-sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.34.0/go.mod h1:Ve9uj1L+deCXFrPOk1LpFXqTg7LCFzFso6PA48q/XZw=
+sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.36.0 h1:/YpDJ4vReG7ZmzSpBGxduXgywWkJU9zHubgJG03MT+Y=
+sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.36.0/go.mod h1:tJo1aepTXyR+8Xs3sUsGBDk4Ub2AM5dPAPKJx0mpm5c=
 sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 h1:IpInykpT6ceI+QxKBbEflcR5EXP7sU1kvOlxwZh5txg=
 sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730/go.mod h1:mdzfpAEoE6DHQEN0uh9ZbOCuHbLK5wOm7dK4ctXE9Tg=
 sigs.k8s.io/randfill v1.0.0 h1:JfjMILfT8A6RbawdsK2JXGBR5AQVfd+9TbzrlneTyrU=
