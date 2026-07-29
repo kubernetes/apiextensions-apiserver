@@ -16,8 +16,8 @@ require (
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.12.1
-	go.etcd.io/etcd/client/pkg/v3 v3.7.0
-	go.etcd.io/etcd/client/v3 v3.7.0
+	go.etcd.io/etcd/client/pkg/v3 v3.7.1
+	go.etcd.io/etcd/client/v3 v3.7.1
 	go.opentelemetry.io/otel v1.44.0
 	go.opentelemetry.io/otel/trace v1.44.0
 	go.yaml.in/yaml/v2 v2.4.4
@@ -25,12 +25,12 @@ require (
 	golang.org/x/text v0.40.0
 	google.golang.org/protobuf v1.36.12
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
-	k8s.io/api v0.0.0-20260829005437-99eb51d61cdd
-	k8s.io/apimachinery v0.0.0-20260829005050-50d9b4a672b4
-	k8s.io/apiserver v0.0.0-20260829012249-61371f43144c
-	k8s.io/client-go v0.0.0-20260829005942-d4060b1a90a3
-	k8s.io/code-generator v0.0.0-20260829011000-611723b0a83e
-	k8s.io/component-base v0.0.0-20260829011232-e442c4088bc3
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kube-openapi v0.0.0-20260721132016-d427ff9ee9ad
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
@@ -96,9 +96,9 @@ require (
 	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xiang90/probing v0.0.0-20221125231312-a49e3df8f510 // indirect
 	go.etcd.io/bbolt v1.5.0 // indirect
-	go.etcd.io/etcd/api/v3 v3.7.0 // indirect
-	go.etcd.io/etcd/pkg/v3 v3.7.0 // indirect
-	go.etcd.io/etcd/server/v3 v3.7.0 // indirect
+	go.etcd.io/etcd/api/v3 v3.7.1 // indirect
+	go.etcd.io/etcd/pkg/v3 v3.7.1 // indirect
+	go.etcd.io/etcd/server/v3 v3.7.1 // indirect
 	go.etcd.io/raft/v3 v3.7.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.68.0 // indirect
@@ -126,7 +126,18 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	k8s.io/gengo/v2 v2.0.0-20260408192533-25e2208e0dc3 // indirect
-	k8s.io/kms v0.0.0-20260826212246-c149fce23f36 // indirect
-	k8s.io/streaming v0.0.0-20260710095143-d1a4397cb62c // indirect
+	k8s.io/kms v0.0.0 // indirect
+	k8s.io/streaming v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.36.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
+	k8s.io/streaming => ../streaming
 )
