@@ -8,7 +8,6 @@ godebug default=go1.27
 
 require (
 	github.com/emicklei/go-restful/v3 v3.14.0
-	github.com/fxamacker/cbor/v2 v2.9.4
 	github.com/google/cel-go v0.29.2
 	github.com/google/gnostic-models v0.7.1
 	github.com/google/go-cmp v0.7.0
@@ -25,12 +24,13 @@ require (
 	golang.org/x/text v0.43.0
 	google.golang.org/protobuf v1.36.12
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
-	k8s.io/api v0.0.0-20261027192221-abcd56639b5f
-	k8s.io/apimachinery v0.0.0-20261026231656-aa57884a9d1f
-	k8s.io/apiserver v0.0.0-20261028000003-55ae116599d4
-	k8s.io/client-go v0.0.0-20261027192918-b1754ce2f3d7
-	k8s.io/code-generator v0.0.0-20261023234214-89785fbbedf0
-	k8s.io/component-base v0.0.0-20261027153629-0c2a61873e07
+	k8s.io/api v0.0.0
+	k8s.io/apiextensions-api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kube-openapi v0.0.0-20261014044854-ca3452a79603
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
@@ -53,6 +53,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/felixge/httpsnoop v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
+	github.com/fxamacker/cbor/v2 v2.9.4 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v1.0.2 // indirect
@@ -115,7 +116,20 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	k8s.io/gengo/v2 v2.0.0-20260408192533-25e2208e0dc3 // indirect
-	k8s.io/kms v0.0.0-20261027154108-0e2cbc606fdf // indirect
-	k8s.io/streaming v0.0.0-20261023231301-c83a32ac951b // indirect
+	k8s.io/kms v0.0.0 // indirect
+	k8s.io/streaming v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.37.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apiextensions-api => ../apiextensions-api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
+	k8s.io/ktesting => ../ktesting
+	k8s.io/streaming => ../streaming
 )
