@@ -25,14 +25,14 @@ require (
 	golang.org/x/text v0.42.0
 	google.golang.org/protobuf v1.36.12
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
-	k8s.io/api v0.0.0-20261009022247-ea04b01abb95
-	k8s.io/apimachinery v0.0.0-20261008180943-4bf141d8652d
-	k8s.io/apiserver v0.0.0-20261008202855-a9358989c2da
-	k8s.io/client-go v0.0.0-20261009022906-efeb11de9164
-	k8s.io/code-generator v0.0.0-20261008193207-46a667d12237
-	k8s.io/component-base v0.0.0-20261008194721-2105d667ae4f
+	k8s.io/api v0.0.0-20261009022248-31d6f3932eb5
+	k8s.io/apimachinery v0.0.0-20261009021810-830a138b85ad
+	k8s.io/apiserver v0.0.0-20261009025705-f4cb2e32949e
+	k8s.io/client-go v0.0.0-20261009022909-199455b69899
+	k8s.io/code-generator v0.0.0-20261009024142-7fa21c4022b1
+	k8s.io/component-base v0.0.0-20261009024433-39b8712093c1
 	k8s.io/klog/v2 v2.140.0
-	k8s.io/kube-openapi v0.0.0-20261001230523-97fa35140926
+	k8s.io/kube-openapi v0.0.0-20261007072838-e2e80c32a35f
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730
 	sigs.k8s.io/randfill v1.0.0
@@ -42,7 +42,6 @@ require (
 
 require (
 	cel.dev/expr v0.25.2 // indirect
-	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
