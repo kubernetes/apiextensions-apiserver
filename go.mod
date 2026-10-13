@@ -25,12 +25,12 @@ require (
 	golang.org/x/text v0.42.0
 	google.golang.org/protobuf v1.36.12
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
-	k8s.io/api v0.0.0-20261010062234-e93463ddce2d
-	k8s.io/apimachinery v0.0.0-20261009061800-d40e9d24499c
-	k8s.io/apiserver v0.0.0-20261010144952-b6ff3d988bfb
+	k8s.io/api v0.0.0-20261013182226-ee51868a2fab
+	k8s.io/apimachinery v0.0.0-20261013175632-1ddb7c92fa97
+	k8s.io/apiserver v0.0.0-20261013224615-8455dcf175d2
 	k8s.io/client-go v0.0.0-20261010142842-2a3406111e64
-	k8s.io/code-generator v0.0.0-20261010143445-ac831a0df159
-	k8s.io/component-base v0.0.0-20261010143735-20f70c390f50
+	k8s.io/code-generator v0.0.0-20261013183129-fa11d700f88d
+	k8s.io/component-base v0.0.0-20261013143737-b76c9a378bf4
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kube-openapi v0.0.0-20261007072838-e2e80c32a35f
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
