@@ -277,10 +277,10 @@ k8s.io/api v0.0.0-20260809035241-72a1627b4f73 h1:LYLoRNb7Dry8AH8PclaXjw9772oo58s
 k8s.io/api v0.0.0-20260809035241-72a1627b4f73/go.mod h1:/84e7J43Tmn0/lm7sSc+xLcFiMwEpyPftghchFTwQhg=
 k8s.io/apimachinery v0.0.0-20260809034401-e55f9bad14a1 h1:AViG/CFRL2PO79qFoujgXkIf96dmbyWzeL6HD+/rg+s=
 k8s.io/apimachinery v0.0.0-20260809034401-e55f9bad14a1/go.mod h1:zeJT605gmdj9R7cTCsMAzEmRQlaxd3fKlWUZN2q1Ndc=
-k8s.io/apiserver v0.0.0-20260809044807-a657dcf4736d h1:+uZZs7TvvnrNcbOTdS+r2PrlDpqk56FTwgX/wKTTNUA=
-k8s.io/apiserver v0.0.0-20260809044807-a657dcf4736d/go.mod h1:LsP8VFor0iplNaFdV3Q1Us1H/d5ZZA/pPF+i5agxUu8=
-k8s.io/client-go v0.0.0-20260730172747-49f0a7b40101 h1:bthFAb8VcCjHZ2PKnWyr+mRuFrVb17fLT7ZdKiY7/ZI=
-k8s.io/client-go v0.0.0-20260730172747-49f0a7b40101/go.mod h1:1RG3RyRH+JHnwUSCZlit06fVWuU7DGtzdpYAV3e/NvQ=
+k8s.io/apiserver v0.0.0-20261029155312-f9ff5e0bf61e h1:+ccdVYNTHt2qeHOXYC94kP+9PK0LHZUVNaW4NZP4PaE=
+k8s.io/apiserver v0.0.0-20261029155312-f9ff5e0bf61e/go.mod h1:B5P/KXR+tR2WLuYVcWgIrHjxiwqUSh8Glev3MVxS5KY=
+k8s.io/client-go v0.0.0-20260809040535-50c6f9bf7431 h1:Qari2T/FWmTTX/e1K2V4eu3AnxT+HGL3VSg+HnV+rQs=
+k8s.io/client-go v0.0.0-20260809040535-50c6f9bf7431/go.mod h1:NAC2Pn8vAUf7jRiv9ik95m3NlF7NXoBMD8ANsvmMV+I=
 k8s.io/code-generator v0.0.0-20260809042118-ad11b1bcdf66 h1:39603NvFIy+kVlPLLLYMmw9l57ki880v6Snhrm1sr4c=
 k8s.io/code-generator v0.0.0-20260809042118-ad11b1bcdf66/go.mod h1:GAjL086dOWJUUlJ3LrjXrMWvZqcpfOGPxHSgR4NKc0o=
 k8s.io/component-base v0.0.0-20260809042612-a6b06eef21a0 h1:hiGmfAX/yL7fuI/9xJUKDVIk52Nlzw6NFD6XHt137jE=
@@ -293,8 +293,8 @@ k8s.io/kms v0.0.0-20260809043315-1eb0a0009126 h1:Fe0OBmYFoxUbFeuD5s2WANkXbFYl3Nh
 k8s.io/kms v0.0.0-20260809043315-1eb0a0009126/go.mod h1:OMmJH9Y4JZnougxjWkLzQsol2GpnURHQP8cwgQX+Jlc=
 k8s.io/kube-openapi v0.0.0-20260721132016-d427ff9ee9ad h1:oXImqH8mQNk7PmvzKhmN3ddJoY6OnyM225MXwGHPm0A=
 k8s.io/kube-openapi v0.0.0-20260721132016-d427ff9ee9ad/go.mod h1:0/mqHCVhlumdJ3BhCfnjSZQE037nAhNodh1/hK0T8/I=
-k8s.io/streaming v0.0.0-20260809033646-cdd8da28b407 h1:mu6CZVCWSltT5asJhzUsSZsZINiLymgJsUoTyoO75cY=
-k8s.io/streaming v0.0.0-20260809033646-cdd8da28b407/go.mod h1:APlJR26ZWRcVy5bIEj0QRrKUXROtBHPcxl2NT7EAzPU=
+k8s.io/streaming v0.0.0-20261029140917-199128eed9ae h1:hozNdoJq4AMcVn9Dt0utOOgBU2KRDRycgMgMjfbtxbk=
+k8s.io/streaming v0.0.0-20261029140917-199128eed9ae/go.mod h1:APlJR26ZWRcVy5bIEj0QRrKUXROtBHPcxl2NT7EAzPU=
 k8s.io/utils v0.0.0-20260626114624-be93311217bd h1:Ea7fgQ5we8Y9T0OX5o0dAHzQOBRI07D/dEYRaB9ZZEs=
 k8s.io/utils v0.0.0-20260626114624-be93311217bd/go.mod h1:xDxuJ0whA3d0I4mf/C4ppKHxXynQ+fxnkmQH0vTHnuk=
 sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.36.0 h1:/YpDJ4vReG7ZmzSpBGxduXgywWkJU9zHubgJG03MT+Y=

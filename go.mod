@@ -27,8 +27,8 @@ require (
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
 	k8s.io/api v0.0.0-20260809035241-72a1627b4f73
 	k8s.io/apimachinery v0.0.0-20260809034401-e55f9bad14a1
-	k8s.io/apiserver v0.0.0-20260809044807-a657dcf4736d
-	k8s.io/client-go v0.0.0-20260730172747-49f0a7b40101
+	k8s.io/apiserver v0.0.0-20261029155312-f9ff5e0bf61e
+	k8s.io/client-go v0.0.0-20260809040535-50c6f9bf7431
 	k8s.io/code-generator v0.0.0-20260809042118-ad11b1bcdf66
 	k8s.io/component-base v0.0.0-20260809042612-a6b06eef21a0
 	k8s.io/klog/v2 v2.140.0
@@ -128,6 +128,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/gengo/v2 v2.0.0-20260408192533-25e2208e0dc3 // indirect
 	k8s.io/kms v0.0.0-20260809043315-1eb0a0009126 // indirect
-	k8s.io/streaming v0.0.0-20260809033646-cdd8da28b407 // indirect
+	k8s.io/streaming v0.0.0-20261029140917-199128eed9ae // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.36.0 // indirect
 )
