@@ -7,7 +7,7 @@ go 1.27.0
 godebug default=go1.27
 
 require (
-	cel.dev/cel-go v0.33.2
+	cel.dev/cel-go v0.33.1
 	github.com/emicklei/go-restful/v3 v3.14.0
 	github.com/google/gnostic-models v0.7.1
 	github.com/google/go-cmp v0.7.0
@@ -24,13 +24,13 @@ require (
 	golang.org/x/text v0.43.0
 	google.golang.org/protobuf v1.36.12
 	gopkg.in/evanphx/json-patch.v4 v4.13.0
-	k8s.io/api v0.0.0-20261105004826-54ebea1642be
-	k8s.io/apiextensions-api v0.0.0-20261102173535-403aefe51b1b
-	k8s.io/apimachinery v0.0.0-20261104204413-4dbe61018310
-	k8s.io/apiserver v0.0.0-20261105011923-dc4594de04d6
-	k8s.io/client-go v0.0.0-20261105005358-cf983291bc33
-	k8s.io/code-generator v0.0.0-20261103210834-c092aca62195
-	k8s.io/component-base v0.0.0-20261103211149-06422decc836
+	k8s.io/api v0.0.0
+	k8s.io/apiextensions-api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/code-generator v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kube-openapi v0.0.0-20261014044854-ca3452a79603
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
@@ -74,11 +74,10 @@ require (
 	github.com/moby/spdystream v0.5.1 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/mxk/go-flowrate v0.0.0-20140419014527-cca7078d478f // indirect
-	github.com/pandatix/go-abnf v0.5.5 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_golang v1.25.0 // indirect
 	github.com/prometheus/client_model v0.6.3 // indirect
-	github.com/prometheus/common v0.73.1 // indirect
+	github.com/prometheus/common v0.72.0 // indirect
 	github.com/prometheus/procfs v0.22.0 // indirect
 	github.com/sirupsen/logrus v1.10.2 // indirect
 	github.com/soheilhy/cmux v0.1.5 // indirect
@@ -105,7 +104,7 @@ require (
 	golang.org/x/crypto v0.58.0 // indirect
 	golang.org/x/exp v0.0.0-20260908205506-85c1c2202aba // indirect
 	golang.org/x/mod v0.41.0 // indirect
-	golang.org/x/net v0.62.0 // indirect
+	golang.org/x/net v0.61.0 // indirect
 	golang.org/x/oauth2 v0.37.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/term v0.47.0 // indirect
@@ -117,7 +116,20 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	k8s.io/gengo/v2 v2.0.0-20260408192533-25e2208e0dc3 // indirect
-	k8s.io/kms v0.0.0-20261102171144-7573cf0aa7fa // indirect
-	k8s.io/streaming v0.0.0-20261102164054-f3c80b94db5e // indirect
+	k8s.io/kms v0.0.0 // indirect
+	k8s.io/streaming v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.37.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apiextensions-api => ../apiextensions-api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/code-generator => ../code-generator
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
+	k8s.io/ktesting => ../ktesting
+	k8s.io/streaming => ../streaming
 )
